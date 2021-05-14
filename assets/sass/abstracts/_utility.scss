@@ -1,0 +1,194 @@
+// Flex properties
+.jst-sp-btw {
+  justify-content: space-between;
+}
+
+.jst-ct {
+  justify-content: center;
+}
+
+.al-it-ct {
+  align-items: center;
+}
+
+.al-slf-st {
+  align-self: flex-start;
+}
+
+//Spacing
+.m-r-78 {
+  margin-right: 7.8rem;
+}
+
+.m-b-9 {
+  margin-bottom: 0.9rem;
+}
+
+.m-b-16 {
+  margin-bottom: 1.6rem;
+}
+
+.m-b-18 {
+  margin-bottom: 1.8rem;
+}
+
+.m-b-20 {
+  margin-bottom: 2rem;
+}
+
+.m-b-21 {
+  margin-bottom: 2.1rem;
+}
+
+.m-b-22 {
+  margin-bottom: 2.2rem;
+}
+
+.m-b-26 {
+  margin-bottom: 2.6rem;
+}
+
+.m-b-33 {
+  margin-bottom: 3.3rem;
+}
+
+.m-b-40 {
+  margin-bottom: 5rem;
+}
+
+.m-b-50 {
+  margin-bottom: 5rem;
+}
+
+.m-b-100 {
+  margin-bottom: 10rem;
+}
+
+.m-b-120 {
+  margin-bottom: 10rem;
+}
+
+.p-t-8 {
+  padding-top: 8rem;
+}
+
+.p-t-100 {
+  padding-top: 10rem;
+}
+
+.p-t-120 {
+  padding-top: 1.2rem;
+}
+
+.p-b-50 {
+  padding-bottom: 5rem;
+}
+
+.p-b-80 {
+  padding-bottom: 8rem;
+}
+
+.p-b-90 {
+  padding-bottom: 9rem;
+}
+
+.p-b-120 {
+  padding-bottom: 12rem;
+}
+
+.gap-20 {
+  gap: 2rem;
+}
+
+.gap-30 {
+  gap: 3rem;
+}
+
+//Border
+
+.bd-rd-24 {
+  border-radius: 2.4rem;
+}
+
+//Colors
+.c-white {
+  color: $color-white;
+}
+
+.c-pink {
+  color: $color-lbl-pink;
+}
+
+// Alignment
+.txt-al-ct {
+  text-align: center;
+}
+
+//Media Queries
+// sm 576-767
+@media screen and (min-width: 576px) {
+}
+
+// md 768-991
+@media screen and (min-width: 768px) {
+}
+
+// lg 992-1199
+@media screen and (min-width: 992px) {
+  //Spacing
+  .m-r-78-lg {
+    margin-right: 7.8rem;
+  }
+
+  .m-b-9-lg {
+    margin-bottom: 0.9rem;
+  }
+
+  .m-b-16-lg {
+    margin-bottom: 1.6rem;
+  }
+
+  .m-b-21-lg {
+    margin-bottom: 2.1rem;
+  }
+
+  .m-b-22-lg {
+    margin-bottom: 2.2rem;
+  }
+
+  .m-b-26-lg {
+    margin-bottom: 2.6rem;
+  }
+
+  .m-b-33-lg {
+    margin-bottom: 3.3rem;
+  }
+
+  .m-b-62-lg {
+    margin-bottom: 3.3rem;
+  }
+
+  .p-b-un {
+    padding-bottom: unset;
+  }
+
+  .p-b-96-lg {
+    padding-bottom: 9.6rem;
+  }
+
+  .p-b-160-lg {
+    padding-bottom: 16rem;
+  }
+
+  .gap-30-lg {
+    gap: 3rem;
+  }
+}
+
+// xl 1200-1399
+@media screen and (min-width: 1200px) {
+}
+
+// xxl 1400 and above
+@media screen and (min-width: 1400px) {
+}

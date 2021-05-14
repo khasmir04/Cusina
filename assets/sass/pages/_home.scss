@@ -1,0 +1,113 @@
+#header {
+  padding: 1.6rem 2.4rem;
+  background: $color-bg-pink;
+}
+
+#kitchen {
+  min-height: 700px;
+  background: rgb(227, 119, 94);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 119, 94, 1) 100%,
+    rgba(255, 162, 141, 1) 100%
+  );
+}
+
+#about {
+  background: $color-bg-white;
+}
+
+#portfolio {
+  background: $color-bg-white;
+}
+
+//Kitchen
+.kitchen__image {
+  display: flex;
+  max-width: 330px;
+  width: 100%;
+}
+
+.kitchen__image__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+//About
+.about__image {
+  display: flex;
+  max-width: 330px;
+  width: 100%;
+}
+
+.about__image__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about__avatar__img {
+  width: 80px;
+  height: 80px;
+}
+
+//Portfolio
+.portfolio__card {
+  max-width: 330px;
+  width: 100%;
+}
+
+.portfolio__card__image {
+  width: 100%;
+}
+
+.portfolio__card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.features__card {
+  max-width: 270px;
+  width: 100%;
+}
+
+.features__card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+//Media Queries
+// sm 576-767
+@media screen and (min-width: 576px) {
+}
+
+// md 768-991
+@media screen and (min-width: 768px) {
+  .kitchen__image {
+    max-width: 595px;
+    width: 100%;
+  }
+  .about__image {
+    max-width: 570px;
+    width: 100%;
+  }
+  .portfolio__card {
+    max-width: 370px;
+    width: 100%;
+  }
+}
+
+// lg 992-1199
+@media screen and (min-width: 992px) {
+}
+
+// xl 1200-1399
+@media screen and (min-width: 1200px) {
+}
+
+// xxl 1400 and above
+@media screen and (min-width: 1400px) {
+}
