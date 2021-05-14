@@ -5,3 +5,13 @@
   padding: 1.6rem;
   border-radius: 0.8rem;
 }
+
+.icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  background: $color-bg-pink-dark;
+}

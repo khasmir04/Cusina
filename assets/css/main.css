@@ -21,6 +21,10 @@
       align-self: flex-start;
 }
 
+.m-r-16 {
+  margin-right: 1.6rem;
+}
+
 .m-r-78 {
   margin-right: 7.8rem;
 }
@@ -49,12 +53,28 @@
   margin-bottom: 2.2rem;
 }
 
+.m-b-25 {
+  margin-bottom: 2.5rem;
+}
+
 .m-b-26 {
   margin-bottom: 2.6rem;
 }
 
+.m-b-28 {
+  margin-bottom: 2.8rem;
+}
+
+.m-b-29 {
+  margin-bottom: 2.9rem;
+}
+
 .m-b-33 {
   margin-bottom: 3.3rem;
+}
+
+.m-b-35 {
+  margin-bottom: 3.5rem;
 }
 
 .m-b-40 {
@@ -77,12 +97,24 @@
   padding-top: 8rem;
 }
 
+.p-t-12 {
+  padding-top: 1.2rem;
+}
+
+.p-t-60 {
+  padding-top: 6rem;
+}
+
 .p-t-100 {
   padding-top: 10rem;
 }
 
 .p-t-120 {
   padding-top: 1.2rem;
+}
+
+.p-b-35 {
+  padding-bottom: 3.5rem;
 }
 
 .p-b-50 {
@@ -99,6 +131,14 @@
 
 .p-b-120 {
   padding-bottom: 12rem;
+}
+
+.l-ht-32 {
+  line-height: 3.2rem;
+}
+
+.gap-16 {
+  gap: 1.6rem;
 }
 
 .gap-20 {
@@ -141,6 +181,12 @@
   .m-b-22-lg {
     margin-bottom: 2.2rem;
   }
+  .m-b-24-lg {
+    margin-bottom: 2.4rem;
+  }
+  .m-b-25-lg {
+    margin-bottom: 2.5rem;
+  }
   .m-b-26-lg {
     margin-bottom: 2.6rem;
   }
@@ -158,6 +204,9 @@
   }
   .p-b-160-lg {
     padding-bottom: 16rem;
+  }
+  .p-t-130-lg {
+    padding-top: 13rem;
   }
   .gap-30-lg {
     gap: 3rem;
@@ -402,9 +451,9 @@ a {
     letter-spacing: -0.3rem;
   }
   .title-2-lg {
-    font-size: 4rem;
-    line-height: 4.8rem;
-    letter-spacing: -0.1rem;
+    font-size: 5.6rem;
+    line-height: 6.4rem;
+    letter-spacing: -0.2rem;
   }
 }
 
@@ -426,6 +475,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.d-in-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .d-none {
@@ -734,6 +789,16 @@ a {
   border-radius: 0.8rem;
 }
 
+.icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  background: #d45f44;
+}
+
 #header {
   padding: 1.6rem 2.4rem;
   background: #e3775e;
@@ -752,6 +817,12 @@ a {
 
 #portfolio {
   background: #fbece7;
+}
+
+#specialization {
+  background: #e3775e;
+  background: -webkit-gradient(linear, left top, right top, color-stop(100%, #e3775e), to(#ffa28d));
+  background: linear-gradient(90deg, #e3775e 100%, #ffa28d 100%);
 }
 
 .kitchen__image {
@@ -817,6 +888,21 @@ a {
      object-fit: cover;
 }
 
+.specialization__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 330px;
+  width: 100%;
+}
+
+.specialization__image__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media screen and (min-width: 768px) {
   .kitchen__image {
     max-width: 595px;
@@ -828,6 +914,10 @@ a {
   }
   .portfolio__card {
     max-width: 370px;
+    width: 100%;
+  }
+  .specialization__image {
+    max-width: 570px;
     width: 100%;
   }
 }

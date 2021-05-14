@@ -16,6 +16,10 @@
 }
 
 //Spacing
+.m-r-16 {
+  margin-right: 1.6rem;
+}
+
 .m-r-78 {
   margin-right: 7.8rem;
 }
@@ -44,12 +48,28 @@
   margin-bottom: 2.2rem;
 }
 
+.m-b-25 {
+  margin-bottom: 2.5rem;
+}
+
 .m-b-26 {
   margin-bottom: 2.6rem;
 }
 
+.m-b-28 {
+  margin-bottom: 2.8rem;
+}
+
+.m-b-29 {
+  margin-bottom: 2.9rem;
+}
+
 .m-b-33 {
   margin-bottom: 3.3rem;
+}
+
+.m-b-35 {
+  margin-bottom: 3.5rem;
 }
 
 .m-b-40 {
@@ -72,12 +92,24 @@
   padding-top: 8rem;
 }
 
+.p-t-12 {
+  padding-top: 1.2rem;
+}
+
+.p-t-60 {
+  padding-top: 6rem;
+}
+
 .p-t-100 {
   padding-top: 10rem;
 }
 
 .p-t-120 {
   padding-top: 1.2rem;
+}
+
+.p-b-35 {
+  padding-bottom: 3.5rem;
 }
 
 .p-b-50 {
@@ -94,6 +126,14 @@
 
 .p-b-120 {
   padding-bottom: 12rem;
+}
+
+.l-ht-32 {
+  line-height: 3.2rem;
+}
+
+.gap-16 {
+  gap: 1.6rem;
 }
 
 .gap-20 {
@@ -156,6 +196,14 @@
     margin-bottom: 2.2rem;
   }
 
+  .m-b-24-lg {
+    margin-bottom: 2.4rem;
+  }
+
+  .m-b-25-lg {
+    margin-bottom: 2.5rem;
+  }
+
   .m-b-26-lg {
     margin-bottom: 2.6rem;
   }
@@ -178,6 +226,10 @@
 
   .p-b-160-lg {
     padding-bottom: 16rem;
+  }
+
+  .p-t-130-lg {
+    padding-top: 13rem;
   }
 
   .gap-30-lg {
