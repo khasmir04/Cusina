@@ -138,6 +138,10 @@
   padding-top: 6rem;
 }
 
+.p-t-80 {
+  padding-top: 6rem;
+}
+
 .p-t-100 {
   padding-top: 10rem;
 }
@@ -168,6 +172,10 @@
 
 .p-b-90 {
   padding-bottom: 9rem;
+}
+
+.p-b-113 {
+  padding-bottom: 11.3rem;
 }
 
 .p-b-120 {
@@ -266,6 +274,9 @@
   }
   .p-b-142-lg {
     padding-bottom: 14.2rem;
+  }
+  .p-b-157-lg {
+    padding-bottom: 15.7rem;
   }
   .p-b-160-lg {
     padding-bottom: 16rem;
@@ -433,6 +444,7 @@ html {
   box-sizing: border-box;
   font-size: 10px;
   font-family: "Kufam", sans-serif;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -942,6 +954,9 @@ a {
 #header {
   padding: 1.6rem 2.4rem;
   background: #e3775e;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 
 #kitchen {
@@ -959,22 +974,9 @@ a {
   background: #fbece7;
 }
 
-#specialization {
-  background: #e3775e;
-  background: -webkit-gradient(linear, left top, right top, color-stop(100%, #e3775e), to(#ffa28d));
-  background: linear-gradient(90deg, #e3775e 100%, #ffa28d 100%);
-}
-
-#features {
-  background: #e3775e;
-  background: -webkit-gradient(linear, left top, right top, color-stop(100%, #e3775e), to(#ffa28d));
-  background: linear-gradient(90deg, #e3775e 100%, #ffa28d 100%);
-}
-
-#team {
-  background: #e3775e;
-  background: -webkit-gradient(linear, left top, right top, color-stop(100%, #e3775e), to(#ffa28d));
-  background: linear-gradient(90deg, #e3775e 100%, #ffa28d 100%);
+#three-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e3775e), to(#ffa28d)), #e3775e;
+  background: linear-gradient(180deg, #e3775e 0%, #ffa28d 100%), #e3775e;
 }
 
 .kitchen__image {

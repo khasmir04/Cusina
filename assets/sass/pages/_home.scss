@@ -1,6 +1,9 @@
 #header {
   padding: 1.6rem 2.4rem;
   background: $color-bg-pink;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 
 #kitchen {
@@ -21,32 +24,10 @@
   background: $color-bg-white;
 }
 
-#specialization {
-  background: rgb(227, 119, 94);
-  background: linear-gradient(
-    90deg,
-    rgba(227, 119, 94, 1) 100%,
-    rgba(255, 162, 141, 1) 100%
-  );
+#three-section {
+  background: linear-gradient(180deg, #e3775e 0%, #ffa28d 100%), #e3775e;
 }
 
-#features {
-  background: rgb(227, 119, 94);
-  background: linear-gradient(
-    90deg,
-    rgba(227, 119, 94, 1) 100%,
-    rgba(255, 162, 141, 1) 100%
-  );
-}
-
-#team {
-  background: rgb(227, 119, 94);
-  background: linear-gradient(
-    90deg,
-    rgba(227, 119, 94, 1) 100%,
-    rgba(255, 162, 141, 1) 100%
-  );
-}
 //Kitchen
 .kitchen__image {
   display: flex;
