@@ -29,6 +29,15 @@
     rgba(255, 162, 141, 1) 100%
   );
 }
+
+#features {
+  background: rgb(227, 119, 94);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 119, 94, 1) 100%,
+    rgba(255, 162, 141, 1) 100%
+  );
+}
 //Kitchen
 .kitchen__image {
   display: flex;
@@ -74,21 +83,11 @@
 }
 
 .portfolio__card__image {
+  position: relative;
   width: 100%;
 }
 
 .portfolio__card__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.features__card {
-  max-width: 270px;
-  width: 100%;
-}
-
-.features__card__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -104,6 +103,20 @@
 .specialization__image__img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+
+//Features
+.features__card {
+  max-width: 270px;
+  width: 100%;
+  padding: 3.2rem;
+  background: $color-bg-pink-dark;
+}
+
+.features__card__img {
+  width: 64px;
+  height: 64px;
   object-fit: cover;
 }
 

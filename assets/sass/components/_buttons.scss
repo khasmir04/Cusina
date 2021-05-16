@@ -1,9 +1,43 @@
 .btn {
+  //default xs
   display: inline-block;
   color: $color-white;
   background-color: $color-btn-blue;
-  padding: 1.6rem;
+  padding: 1.6rem 3.3rem 1.3rem 3.3rem;
   border-radius: 0.8rem;
+  &.btn--trans {
+    background-color: transparent;
+    border: 1px solid $color-white;
+    &.btn--trans--pink {
+      color: $color-bg-pink;
+      border: 1px solid $color-bg-pink;
+    }
+  }
+  &.btn--sm {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  &.btn--md {
+    padding-left: 4.2rem;
+    padding-right: 4.2rem;
+  }
+  &.btn--lg {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  &.btn--xg {
+    padding-left: 4.7rem;
+    padding-right: 4.7rem;
+  }
+  &.btn--xxl {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+.btn-wide {
+  display: block;
+  text-align: center;
 }
 
 .icon {
@@ -14,4 +48,39 @@
   border-radius: 50%;
   text-align: center;
   background: $color-bg-pink-dark;
+}
+
+.lbl {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+  color: $color-white;
+  background: $color-lbl-black;
+  border-radius: 1.6rem;
+  padding: 0.6rem 1.3rem 0.2rem 1.4rem;
+  opacity: 79.87%;
+}
+//Media Queries
+// sm 576-767
+@media screen and (min-width: 576px) {
+}
+
+// md 768-991
+@media screen and (min-width: 768px) {
+}
+
+// lg 992-1199
+@media screen and (min-width: 992px) {
+  .btn-wide {
+    display: inline-block;
+    text-align: unset;
+  }
+}
+
+// xl 1200-1399
+@media screen and (min-width: 1200px) {
+}
+
+// xxl 1400 and above
+@media screen and (min-width: 1400px) {
 }
