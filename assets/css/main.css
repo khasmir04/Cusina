@@ -860,6 +860,11 @@ a {
   height: 80px;
 }
 
+.about__sign__img {
+  max-width: 120px;
+  width: 100%;
+}
+
 .portfolio__card {
   max-width: 330px;
   width: 100%;
