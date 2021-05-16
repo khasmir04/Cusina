@@ -38,6 +38,15 @@
     rgba(255, 162, 141, 1) 100%
   );
 }
+
+#team {
+  background: rgb(227, 119, 94);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 119, 94, 1) 100%,
+    rgba(255, 162, 141, 1) 100%
+  );
+}
 //Kitchen
 .kitchen__image {
   display: flex;
@@ -117,7 +126,24 @@
 .features__card__img {
   width: 64px;
   height: 64px;
+}
+
+//Team
+.team__image {
+  display: flex;
+  max-width: 330px;
+  width: 100%;
+}
+
+.team__image__img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+}
+
+.team__avatar__img {
+  width: 64px;
+  height: 64px;
 }
 
 //Media Queries
@@ -141,6 +167,10 @@
   }
   .specialization__image {
     max-width: 650px;
+    width: 100%;
+  }
+  .team__image {
+    max-width: 570px;
     width: 100%;
   }
 }

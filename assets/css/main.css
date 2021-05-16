@@ -1,3 +1,16 @@
+.flex-dr-rr {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.jst-f-e {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .jst-sp-btw {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -27,6 +40,10 @@
 
 .m-r-78 {
   margin-right: 7.8rem;
+}
+
+.m-l-n16 {
+  margin-left: -1.6rem;
 }
 
 .m-b-8 {
@@ -145,6 +162,10 @@
   padding-bottom: 8rem;
 }
 
+.p-b-98 {
+  padding-bottom: 9.8rem;
+}
+
 .p-b-90 {
   padding-bottom: 9rem;
 }
@@ -153,8 +174,16 @@
   padding-bottom: 12rem;
 }
 
+.p-b-185 {
+  padding-bottom: 18.5rem;
+}
+
 .l-ht-32 {
   line-height: 3.2rem;
+}
+
+.gap-15 {
+  gap: 1.6rem;
 }
 
 .gap-16 {
@@ -179,6 +208,10 @@
 
 .c-pink {
   color: #e3775e;
+}
+
+.op-50 {
+  opacity: 50.3%;
 }
 
 .txt-al-ct {
@@ -228,8 +261,14 @@
   .p-b-96-lg {
     padding-bottom: 9.6rem;
   }
+  .p-b-142-lg {
+    padding-bottom: 14.2rem;
+  }
   .p-b-160-lg {
     padding-bottom: 16rem;
+  }
+  .p-b-242-lg {
+    padding-bottom: 24.2rem;
   }
   .p-t-130-lg {
     padding-top: 13rem;
@@ -443,6 +482,10 @@ a {
   line-height: 3.2rem;
 }
 
+.desc.desc--card {
+  font-size: 1.6rem;
+}
+
 .label-btn {
   font-size: 1.4rem;
   font-weight: 700;
@@ -513,6 +556,10 @@ a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+}
+
+.d-in-block {
+  display: inline-block;
 }
 
 .d-none {
@@ -921,6 +968,12 @@ a {
   background: linear-gradient(90deg, #e3775e 100%, #ffa28d 100%);
 }
 
+#team {
+  background: #e3775e;
+  background: -webkit-gradient(linear, left top, right top, color-stop(100%, #e3775e), to(#ffa28d));
+  background: linear-gradient(90deg, #e3775e 100%, #ffa28d 100%);
+}
+
 .kitchen__image {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1005,8 +1058,26 @@ a {
 .features__card__img {
   width: 64px;
   height: 64px;
+}
+
+.team__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 330px;
+  width: 100%;
+}
+
+.team__image__img {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.team__avatar__img {
+  width: 64px;
+  height: 64px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1024,6 +1095,10 @@ a {
   }
   .specialization__image {
     max-width: 650px;
+    width: 100%;
+  }
+  .team__image {
+    max-width: 570px;
     width: 100%;
   }
 }

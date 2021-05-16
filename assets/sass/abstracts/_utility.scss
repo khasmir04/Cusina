@@ -1,4 +1,12 @@
 // Flex properties
+.flex-dr-rr {
+  flex-direction: row-reverse;
+}
+
+.jst-f-e {
+  justify-content: flex-end;
+}
+
 .jst-sp-btw {
   justify-content: space-between;
 }
@@ -22,6 +30,10 @@
 
 .m-r-78 {
   margin-right: 7.8rem;
+}
+
+.m-l-n16 {
+  margin-left: -1.6rem;
 }
 
 .m-b-8 {
@@ -140,6 +152,10 @@
   padding-bottom: 8rem;
 }
 
+.p-b-98 {
+  padding-bottom: 9.8rem;
+}
+
 .p-b-90 {
   padding-bottom: 9rem;
 }
@@ -148,8 +164,16 @@
   padding-bottom: 12rem;
 }
 
+.p-b-185 {
+  padding-bottom: 18.5rem;
+}
+
 .l-ht-32 {
   line-height: 3.2rem;
+}
+
+.gap-15 {
+  gap: 1.6rem;
 }
 
 .gap-16 {
@@ -177,6 +201,11 @@
 
 .c-pink {
   color: $color-lbl-pink;
+}
+
+//Opacity
+.op-50 {
+  opacity: 50.3%;
 }
 
 // Alignment
@@ -252,8 +281,16 @@
     padding-bottom: 9.6rem;
   }
 
+  .p-b-142-lg {
+    padding-bottom: 14.2rem;
+  }
+
   .p-b-160-lg {
     padding-bottom: 16rem;
+  }
+
+  .p-b-242-lg {
+    padding-bottom: 24.2rem;
   }
 
   .p-t-130-lg {
