@@ -13,6 +13,7 @@
       border: 1px solid $color-bg-pink;
     }
   }
+  //sizes
   &.btn--sm {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -32,6 +33,10 @@
   &.btn--xxl {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+  //colors
+  &.btn--black {
+    background: $color-lbl-black;
   }
 }
 

@@ -7,7 +7,6 @@
     <meta name="description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
     <title>Kitchen Website</title>
     <!-- Icon -->
-    <link data-react-helmet="true" rel="icon" type="image/svg" href="https://images.contentstack.io/v3/assets/blt370612131b6e0756/bltf17a9343be9691fd/60090ec35ad9610f6cb77432/WR_favicon_32x32.svg">
     <!-- googlefonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Font family -->
@@ -264,33 +263,130 @@
             </div>
         </div>
     </section>
-    <section class="news p-t-77 p-t-109-lg p-b-125" id="news">
+    <section class="news p-b-108 p-b-98-lg" id="news">
         <div class="container news-container">
             <div class="row h-100 m-b-20 m-b-32-lg">
                 <div class="col d-flex al-it-ct jst-ct">
                     <div class="news__content txt-al-ct">
                         <h2 class="subtitle m-b-18 m-b-22-lg c-pink">NEWS</h2>
-                        <h3 class="title-2 title-2--b title-2-lg m-b-34">Latest Articles</h3>
+                        <h3 class="title-2 title-2--b title-2-lg">Latest Articles</h3>
                     </div>
                 </div>
             </div>
-            <div class="row h-100 c-white">
+            <div class="row h-100 m-b-34 c-white">
                 <div class="col col-md-6 d-flex jst-ct al-it-ct">
-                    <div class="news__card d-flex flex-dir-col bd-rd-24 p-48 p-b-38">
-
-                        <h4 class="caption caption--b m-b-14">Professional</h4>
-                        <p class="desc desc--card op-50">The sky was cloudless and of a deep dark blue.</p>
+                    <div class="news__card d-flex flex-dir-col bd-rd-24 p-t-172 p-t-236-lg p-b-38">
+                        <div class="card__date txt-al-ct">
+                            <h4 class="caption caption--b">14</h4>
+                            <p class="desc desc--card m-t-n10">Sep</p>
+                        </div>
+                        <p class="desc desc--card op-50 m-b-14">Professional</p>
+                        <h4 class="caption caption--b">3 Design Lessons from New York's First Micro Apartments.</h4>
                     </div>
                 </div>
                 <div class="col col-md-6 d-flex jst-ct al-it-ct">
-                    <div class="news__card d-flex flex-dir-col bd-rd-24 p-48 p-b-38">
-
-                        <h4 class="caption caption--b m-b-14">Materials</h4>
-                        <p class="desc desc--card op-50">Cloudless and of a deep dark blue spectacle.</p>
+                    <div class="news__card d-flex flex-dir-col bd-rd-24 p-t-172 p-t-236-lg p-b-38">
+                        <div class="card__date txt-al-ct">
+                            <h4 class="caption caption--b">10</h4>
+                            <p class="desc desc--card m-t-n10">Sep</p>
+                        </div>
+                        <p class="desc desc--card op-50 m-b-14">Materials</p>
+                        <h4 class="caption caption--b">Interesting Pedestrian Bridge Designs From Around The World.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="news__see-more txt-al-ct">
+                        <a href="#" class="btn btn--sm btn--trans btn--trans--pink label-btn">SEE MORE</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="contact p-b-98 p-b-130-lg " id="contact">
+        <div class="container contact-container h-100">
+            <div class="row h-100">
+                <div class="col col-md-6 d-flex al-it-ct m-b-64">
+                    <div class="contact__content">
+                        <h2 class="subtitle m-b-18 m-b-22-lg c-pink">CONTACT</h2>
+                        <h3 class="title-2 title-2--b title-2-lg m-b-30 m-b-26-lg">Come & Visit to Our Showroom</h3>
+                        <p class="desc desc--card c-black-desc op-50">Office</p>
+                        <p class="desc c-black-desc m-b-31">7587 Longfellow Road Ankeny, IA 50023</p>
+                        <ul class="d-flex flex-dir-col gap-16 m-b-36">
+                            <li class="desc desc--card"><span class="icon m-r-16"><i class="fas fa-phone-alt l-ht-32 c-white"></i></span>+1 (234) 567-89-01</li>
+                            <li class="desc desc--card"><span class="icon m-r-16"><i class="fas fa-envelope l-ht-32 c-white"></i></span>info@kitchen.com</li>
+                        </ul>
+                        <a class="btn btn--md btn--black label-btn" href="#">CONTACT US</a>
+                    </div>
+                </div>
+                <div class="col col-md-6 d-flex al-it-ct jst-ct">
+                    <div class="contact__image bd-rd-32">
+                        <img class="contact__image__img bd-rd-32" src="./assets/img/contact-img.png" alt="about image">
+                        <img class="contact__pin__img" src="./assets/img/pin.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter p-t-95 p-b-81 p-b-69-lg" id="newsletter">
+        <div class="container newsletter-container h-100">
+            <div class="row h-100 c-white">
+                <div class="col col-md-7 m-b-6">
+                    <div class="newsletter__subscribe">
+                        <h3 class="title-2 title-2--b m-b-14">Subscribe To Newsletter</h3>
+                        <p class="desc desc--card op-50">The sky was cloudless and of a deep dark blue spectacle.</p>
+                    </div>
+                </div>
+                <div class="col col-md-5">
+                    <div class="newsletter__email">
+                        <form action="/submit" class="d-flex jst-f-e-md flex-dir-col flex-dir-row-md gap-16">
+                            <input class="newsletter__email__input desc desc--card bd-0 bd-rd-8" type="email" name="newsletter__email" id="email" value="Your Email">
+                            <button class="btn btn-wide label-btn bd-0" type="submit">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer p-t-95 p-t-47-lg" id="footer">
+        <div class="container footer-container">
+            <div class="row h-100 c-white m-b-49 m-b-22-lg">
+                <div class="col col-md-3 txt-al-ct">
+                    <a class="label-logo label-logo--b c-white txt-al-ct" href="#kitchen">KTC</a>
+                </div>
+                <div class="col col-md-3">
+                    <div class="footer__menu d-flex flex-dir-col al-it-ct al-it-fs-md">
+                        <h2 class="subtitle c-pink">MENU</h2>
+                        <ul class="txt-al-ct txt-al-ini-md">
+                            <li><a class="desc desc--card c-white" href="#">About</a></li>
+                            <li><a class="desc desc--card c-white" href="#">Kitchens</a></li>
+                            <li><a class="desc desc--card c-white" href="#">Blog</a></li>
+                            <li><a class="desc desc--card c-white" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-md-3">
+                    <div class="footer__service d-flex flex-dir-col al-it-ct al-it-fs-md">
+                        <h2 class="subtitle c-pink">SERVICE</h2>
+                        <ul class="txt-al-ct txt-al-ini-md">
+                            <li><a class="desc desc--card c-white" href="#">Professional</a></li>
+                            <li><a class="desc desc--card c-white" href="#">Materials</a></li>
+                            <li><a class="desc desc--card c-white" href="#">Quality</a></li>
+                            <li><a class="desc desc--card c-white" href="#">Expert</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-md-3">
+                    <div class="footer__social d-flex flex-dir-col al-it-ct al-it-fs-md">
+                        <h2 class="subtitle c-pink">SOCIAL</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row h-100 c-white">
+                
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
