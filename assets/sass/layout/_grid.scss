@@ -24,10 +24,43 @@
 .d-in-block {
   display: inline-block;
 }
+
 .d-none {
   display: none;
 }
 
+// Flex properties
+.flex-dr-rr {
+  flex-direction: row-reverse;
+}
+
+.jst-f-e {
+  justify-content: flex-end;
+}
+
+.jst-sp-btw {
+  justify-content: space-between;
+}
+
+.jst-ct {
+  justify-content: center;
+}
+
+.al-it-ct {
+  align-items: center;
+}
+
+.al-it-fs {
+  align-items: flex-start;
+}
+
+.al-slf-st {
+  align-self: flex-start;
+}
+
+.flex-wr {
+  flex-wrap: wrap;
+}
 .flex-order-min-1 {
   order: -1;
 }

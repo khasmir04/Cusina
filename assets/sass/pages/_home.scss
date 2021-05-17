@@ -109,6 +109,11 @@
   height: 64px;
 }
 
+.features__content {
+  max-width: 330px;
+  width: 100%;
+}
+
 //Team
 .team__image {
   display: flex;
@@ -125,6 +130,17 @@
 .team__avatar__img {
   width: 64px;
   height: 64px;
+}
+
+//News
+.news__card {
+  max-width: 330px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 162, 141, 1) 100%,
+    rgba(227, 119, 94, 1) 100%
+  );
 }
 
 //Media Queries
@@ -151,6 +167,14 @@
     width: 100%;
   }
   .team__image {
+    max-width: 570px;
+    width: 100%;
+  }
+  .features__content {
+    max-width: 660px;
+    width: 100%;
+  }
+  .news__card {
     max-width: 570px;
     width: 100%;
   }
