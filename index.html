@@ -13,380 +13,453 @@
     <link href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- custom style sheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"/>
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-    <header class="header" id="header">
-        <div class="container-fluid d-flex jst-sp-btw c-white al-it-ct">
-            <div class="header__logo label-logo label-logo--b">
-                <a class="c-white" href="#kitchen">KTC</a>
-            </div>
-            <nav class="header__nav d-none d-vis">
-                <ul class="nav-menu d-flex jst-sp-btw">
-                    <li class="nav-menu__item m-r-78"><a class="c-white label-nav" href="#about">About</a></li>
-                    <li class="nav-menu__item m-r-78"><a class="c-white label-nav" href="#">Kitchens</a></li>
-                    <li class="nav-menu__item m-r-78"><a class="c-white label-nav" href="#">Blog</a></li>
-                    <li class="nav-menu__item"><a class="c-white label-nav" href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header__contact d-none d-vis">
-                <a href="#" class="btn btn--trans label-btn">CONTACT US</a>
-            </div>
+  <header class="header" id="header">
+      <div class="container-fluid d-flex jst-sp-btw c-white al-it-ct">
+          <div class="header__logo label-logo label-logo--b">
+              <a class="c-white" href="#kitchen">KTC</a>
+          </div>
+          <nav class="header__nav d-none d-vis">
+              <ul class="nav-menu d-flex jst-sp-btw">
+                  <li class="nav-menu__item m-r-78"><a class="c-white label-nav" href="#about">About</a></li>
+                  <li class="nav-menu__item m-r-78"><a class="c-white label-nav" href="#">Kitchens</a></li>
+                  <li class="nav-menu__item m-r-78"><a class="c-white label-nav" href="#">Blog</a></li>
+                  <li class="nav-menu__item"><a class="c-white label-nav" href="#">Contact</a></li>
+              </ul>
+          </nav>
+          <div class="header__contact d-none d-vis">
+              <a href="#" class="btn btn--trans label-btn">CONTACT US</a>
+          </div>
+      </div>
+  </header>
+  <section class="kitchen vh-100 p-b-50 p-b-un" id="kitchen">
+      <div class="container kitchen-container h-100 p-t-80">
+          <div class="row h-100">
+              <div class="col col-md-6 d-flex al-it-ct">
+                  <div class="kitchen__content c-white">
+                      <h2 class="subtitle m-b-22 m-b-26-lg">KITCHEN</h2>
+                      <h3 class="title title--b title-lg m-b-9 m-b-21-lg">Your Dream Kitchen</h3>
+                      <p class="desc m-b-16 m-b-33-lg">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime.</p>
+                      <a class="btn label-btn" href="#">EXPLORE KITCHENS</a>
+                  </div>
+              </div>
+              <div class="col col-md-6 d-flex al-it-ct jst-ct flex-order-min-1 flex-order-pos-2">
+                  <div class="kitchen__image">
+                      <img class="kitchen__image__img" src="./assets/img/kitchen-img.png" alt="kitchen image">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="about p-t-100 p-b-90 p-b-160-lg " id="about">
+      <div class="container about-container h-100">
+          <div class="row h-100">
+              <div class="col col-md-6 d-flex al-it-ct jst-ct">
+                  <div class="about__image">
+                      <img class="about__image__img" src="./assets/img/about-img.png" alt="about image">
+                  </div>
+              </div>
+              <div class="col col-md-6 d-flex al-it-ct">
+                  <div class="about__content">
+                      <h2 class="subtitle m-b-22 m-b-26-lg c-pink">ABOUT</h2>
+                      <h3 class="title-2 title-2--b title-2-lg m-b-28 m-b-24-lg">Designed For Your Life</h3>
+                      <h4 class="caption caption--b m-b-33">Our Collection Of Kitchens</h4>
+                      <p class="desc m-b-16 m-b-33-lg">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle.</p>
+                      <div class="d-flex gap-20 jst-sp-btw">
+                          <div class="about__avatar__image">
+                              <img class="about__avatar__img" src="./assets/img/about-avatar.png" alt="avatar icon">
+                          </div>
+                          <div class="p-t-12">
+                              <p class="label-nav">"Cloudless and of a deep dark blue spectacle before us was indeed sublime."</p>
+                              <img class="about__sign__img" src="./assets/img/about-sign.png" alt="">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="portfolio p-b-65 p-b-81-lg" id="portfolio">
+      <div class="container portfolio-container">
+        <div class="row">
+          <div class="col">
+              <h2 class="subtitle m-b-18 m-b-22-lg c-pink">PORTFOLIO</h2>
+              <h3 class="title-2 title-2--b title-2-lg m-b-40 m-b-62-lg">Our Projects</h3>
+          </div>
         </div>
-    </header>
-    <section class="kitchen vh-100 p-b-50 p-b-un" id="kitchen">
-        <div class="container kitchen-container h-100 p-t-80">
-            <div class="row h-100">
-                <div class="col col-md-6 d-flex al-it-ct">
-                    <div class="kitchen__content c-white">
-                        <h2 class="subtitle m-b-22 m-b-26-lg">KITCHEN</h2>
-                        <h3 class="title title--b title-lg m-b-9 m-b-21-lg">Your Dream Kitchen</h3>
-                        <p class="desc m-b-16 m-b-33-lg">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime.</p>
-                        <a class="btn label-btn" href="#">EXPLORE KITCHENS</a>
-                    </div>
-                </div>
-                <div class="col col-md-6 d-flex al-it-ct jst-ct flex-order-min-1 flex-order-pos-2">
-                    <div class="kitchen__image">
-                        <img class="kitchen__image__img" src="./assets/img/kitchen-img.png" alt="kitchen image">
-                    </div>
-                </div>
-                
+        <div class="row h-100 m-b-8 m-b-24-lg">
+          <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
+            <div class="portfolio__card d-flex flex-dir-col">
+              <div class="portfolio__card__image">
+                <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
+                <label class="lbl label-overlay">Modern</label>
+              </div>
+              <h4 class="portfolio__card__title caption caption--b">Consectetur</h4>
             </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
+            <div class="portfolio__card d-flex flex-dir-col">
+              <div class="portfolio__card__image">
+                <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
+                <label class="lbl label-overlay">Provence</label>
+              </div>
+              <h4 class="portfolio__card__title caption caption--b">Adipiscing</h4>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
+            <div class="portfolio__card d-flex flex-dir-col">
+              <div class="portfolio__card__image">
+                <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
+                <label class="lbl label-overlay">Minimal</label>
+              </div>
+              <h4 class="portfolio__card__title caption caption--b">Eiusmod</h4>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
+            <div class="portfolio__card d-flex flex-dir-col">
+              <div class="portfolio__card__image">
+                <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
+                <label class="lbl label-overlay">Loft</label>
+              </div>
+              <h4 class="portfolio__card__title caption caption--b">Tempor</h4>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
+            <div class="portfolio__card d-flex flex-dir-col">
+              <div class="portfolio__card__image">
+                <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
+                <label class="lbl label-overlay">Modern</label>
+              </div>
+              <h4 class="portfolio__card__title caption caption--b">Incididunt</h4>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
+            <div class="portfolio__card d-flex flex-dir-col">
+              <div class="portfolio__card__image">
+                <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
+                <label class="lbl label-overlay">Minimal</label>
+              </div>
+              <h4 class="portfolio__card__title caption caption--b">Exercitation</h4>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class="about p-t-100 p-b-90 p-b-160-lg " id="about">
-        <div class="container about-container h-100">
-            <div class="row h-100">
-                <div class="col col-md-6 d-flex al-it-ct jst-ct">
-                    <div class="about__image">
-                        <img class="about__image__img" src="./assets/img/about-img.png" alt="about image">
-                    </div>
-                </div>
-                <div class="col col-md-6 d-flex al-it-ct">
-                    <div class="about__content">
-                        <h2 class="subtitle m-b-22 m-b-26-lg c-pink">ABOUT</h2>
-                        <h3 class="title-2 title-2--b title-2-lg m-b-28 m-b-24-lg">Designed For Your Life</h3>
-                        <h4 class="caption caption--b m-b-33">Our Collection Of Kitchens</h4>
-                        <p class="desc m-b-16 m-b-33-lg">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle.</p>
-                        <div class="d-flex gap-20 jst-sp-btw">
-                            <div class="about__avatar__image">
-                                <img class="about__avatar__img" src="./assets/img/about-avatar.png" alt="avatar icon">
-                            </div>
-                            <div class="p-t-12">
-                                <p class="label-nav">"Cloudless and of a deep dark blue spectacle before us was indeed sublime."</p>
-                                <img class="about__sign__img" src="./assets/img/about-sign.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+          <div class="col">
+            <div class="portfolio__explore txt-al-ct">
+              <a href="#" class="btn btn--sm btn--trans btn--trans--pink label-btn">EXPLORE ALL</a>
             </div>
+          </div>
         </div>
-    </section>
-    <section class="portfolio p-b-65 p-b-81-lg" id="portfolio">
-        <div class="container portfolio-container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="subtitle m-b-18 m-b-22-lg c-pink">PORTFOLIO</h2>
-                    <h3 class="title-2 title-2--b title-2-lg m-b-40 m-b-62-lg">Our Projects</h3>
-                </div>
-            </div>
-            <div class="row h-100 m-b-8 m-b-24-lg">
-                <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
-                    <div class="portfolio__card d-flex flex-dir-col">
-                        <div class="portfolio__card__image">
-                            <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
-                            <label class="lbl label-overlay">Modern</label>
-                        </div>
-                        <h4 class="portfolio__card__title caption caption--b">Consectetur</h4>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
-                    <div class="portfolio__card d-flex flex-dir-col">
-                        <div class="portfolio__card__image">
-                            <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
-                            <label class="lbl label-overlay">Provence</label>
-                        </div>
-                        <h4 class="portfolio__card__title caption caption--b">Adipiscing</h4>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
-                    <div class="portfolio__card d-flex flex-dir-col">
-                        <div class="portfolio__card__image">
-                            <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
-                            <label class="lbl label-overlay">Minimal</label>
-                        </div>
-                        <h4 class="portfolio__card__title caption caption--b">Eiusmod</h4>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
-                    <div class="portfolio__card d-flex flex-dir-col">
-                        <div class="portfolio__card__image">
-                            <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
-                            <label class="lbl label-overlay">Loft</label>
-                        </div>
-                        <h4 class="portfolio__card__title caption caption--b">Tempor</h4>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
-                    <div class="portfolio__card d-flex flex-dir-col">
-                        <div class="portfolio__card__image">
-                            <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
-                            <label class="lbl label-overlay">Modern</label>
-                        </div>
-                        <h4 class="portfolio__card__title caption caption--b">Incididunt</h4>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 d-flex jst-ct al-it-ct">
-                    <div class="portfolio__card d-flex flex-dir-col">
-                        <div class="portfolio__card__image">
-                            <img class="portfolio__card__img m-b-26 bd-rd-24" src="./assets/img/portfolio-img.png" alt="">
-                            <label class="lbl label-overlay">Minimal</label>
-                        </div>
-                        <h4 class="portfolio__card__title caption caption--b">Exercitation</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="portfolio__explore txt-al-ct">
-                        <a href="#" class="btn btn--sm btn--trans btn--trans--pink label-btn">EXPLORE ALL</a>
-                    </div>
-                </div>
-            </div>
+      </div>
+  </section>
+  <div id="three-section">
+      <section class="specialization p-t-60 p-t-130-lg p-b-90 p-b-160-lg " id="specialization">
+          <div class="container specialization-container c-white h-100">
+              <div class="row h-100">
+                  <div class="col col-md-6 d-flex al-it-ct">
+                      <div class="specialization__content p-b-35 p-b-un">
+                          <h2 class="subtitle m-b-18 m-b-22-lg">SPECIALIZATION</h2>
+                          <h3 class="title-2 title-2--b title-2-lg m-b-29 m-b-25-lg">Expertise & Innovation</h3>
+                          <p class="desc m-b-25">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle.</p>
+                          <ul class="d-flex flex-dir-col gap-16">
+                              <li class="label-nav"><span class="icon m-r-16"><i class="fas fa-check l-ht-32"></i></span>Customize You Kitchen</li>
+                              <li class="label-nav"><span class="icon m-r-16"><i class="fas fa-check l-ht-32"></i></span>Design Your Kitchen in 3D</li>
+                              <li class="label-nav"><span class="icon m-r-16"><i class="fas fa-check l-ht-32"></i></span>Delivery & Installation</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col col-md-6 d-flex al-it-ct jst-ct">
+                      <div class="specialization__image">
+                          <img class="specialization__image__img" src="./assets/img/specialization-img.png" alt="specialization image">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="features p-b-185 p-b-242-lg" id="features">
+          <div class="container features-container c-white h-100">
+              <div class="row h-100 m-b-20 m-b-32-lg">
+                  <div class="col d-flex al-it-ct jst-ct">
+                      <div class="features__content txt-al-ct">
+                          <h2 class="subtitle m-b-18 m-b-22-lg">FEATURES</h2>
+                          <h3 class="title-2 title-2--b title-2-lg">Explore Our Advantages & Best Features</h3>
+                      </div>
+                  </div>
+              </div>
+              <div class="row h-100">
+                  <div class="col col-md-6 col-lg-3 d-flex jst-ct al-it-ct">
+                      <div class="features__card d-flex flex-dir-col bd-rd-24">
+                          <img class="features__card__img m-b-106" src="./assets/img/features-icon-kitchen.png" alt="kitchen icon">
+                          <h4 class="caption caption--b m-b-18">Professional</h4>
+                          <p class="desc desc--card op-50">The sky was cloudless and of a deep dark blue.</p>
+                      </div>
+                  </div>
+                  <div class="col col-md-6 col-lg-3 d-flex jst-ct al-it-ct">
+                      <div class="features__card d-flex flex-dir-col bd-rd-24">
+                          <img class="features__card__img m-b-106" src="./assets/img/features-icon-chef-hat.png" alt="chef hat icon">
+                          <h4 class="caption caption--b m-b-18">Materials</h4>
+                          <p class="desc desc--card op-50">Cloudless and of a deep dark blue spectacle.</p>
+                      </div>
+                  </div>
+                  <div class="col col-md-6 col-lg-3 d-flex jst-ct al-it-ct">
+                      <div class="features__card d-flex flex-dir-col bd-rd-24">
+                          <img class="features__card__img m-b-106" src="./assets/img/features-icon-glove.png" alt="glove icon">
+                          <h4 class="caption caption--b m-b-18">Quality</h4>
+                          <p class="desc desc--card op-50">Deep dark blue spectacle before us was indeed.</p>
+                      </div>
+                  </div>
+                  <div class="col col-md-6 col-lg-3 d-flex jst-ct al-it-ct">
+                      <div class="features__card d-flex flex-dir-col bd-rd-24">
+                          <img class="features__card__img m-b-106" src="./assets/img/features-icon-beater.png" alt="beater icon">
+                          <h4 class="caption caption--b m-b-18">Experts</h4>
+                          <p class="desc desc--card op-50">Before us was indeed sublime sky was.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="team p-b-113 p-b-157-lg " id="team">
+          <div class="container team-container c-white h-100">
+              <div class="row h-100">
+                  <div class="col col-md-6 d-flex al-it-ct jst-ct">
+                      <div class="team__image">
+                          <img class="team__image__img" src="./assets/img/team-img.png" alt="team image">
+                      </div>
+                  </div>
+                  <div class="col col-md-6 d-flex al-it-ct">
+                      <div class="team__content p-b-35 p-b-un">
+                          <h2 class="subtitle m-b-18 m-b-22-lg">TEAM</h2>
+                          <h3 class="title-2 title-2--b title-2-lg m-b-29 m-b-25-lg">Our Team Members</h3>
+                          <p class="desc m-b-25">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle.</p>
+                          <div class="d-flex al-it-ct gap-15 m-b-32">
+                              <div class="team__content__avatars d-in-flex flex-dr-rr jst-f-e">
+                                  <img class="team__avatar__img m-l-n16" src="./assets/img/team-avatar.png" alt="avatar">
+                                  <img class="team__avatar__img m-l-n16" src="./assets/img/team-avatar.png" alt="avatar">
+                                  <img class="team__avatar__img m-l-n16" src="./assets/img/team-avatar.png" alt="avatar">
+                                  <img class="team__avatar__img" src="./assets/img/team-avatar.png" alt="avatar">
+                              </div>
+                              <h4 class="caption caption--b d-in-block">42 +</h4>
+                          </div>
+                          <a class="btn btn--lg label-btn" href="#">EXPLORE</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </div>
+  <section class="testimonials p-t-77 p-t-109-lg p-b-125" id="testimonials">
+    <div class="container testimonials-container">
+      <div class="row m-b-33 m-b-28-lg">
+        <div class="col">
+          <h2 class="subtitle m-b-18 m-b-13-lg c-pink">TESTIMONIALS</h2>
+          <div class="d-flex jst-sp-btw al-it-fs flex-wr">
+            <h3 class="title-2 title-2--b title-2-lg m-b-34">Clients Says</h3>
+            <a class="btn btn--md btn--trans btn--trans--pink label-btn" href="#">SEE ALL</a>
+          </div>
         </div>
-    </section>
-    <div id="three-section">
-        <section class="specialization p-t-60 p-t-130-lg p-b-90 p-b-160-lg " id="specialization">
-            <div class="container specialization-container c-white h-100">
-                <div class="row h-100">
-                    <div class="col col-md-6 d-flex al-it-ct">
-                        <div class="specialization__content p-b-35 p-b-un">
-                            <h2 class="subtitle m-b-18 m-b-22-lg">SPECIALIZATION</h2>
-                            <h3 class="title-2 title-2--b title-2-lg m-b-29 m-b-25-lg">Expertise & Innovation</h3>
-                            <p class="desc m-b-25">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle.</p>
-                            <ul class="d-flex flex-dir-col gap-16">
-                                <li class="label-nav"><span class="icon m-r-16"><i class="fas fa-check l-ht-32"></i></span>Customize You Kitchen</li>
-                                <li class="label-nav"><span class="icon m-r-16"><i class="fas fa-check l-ht-32"></i></span>Design Your Kitchen in 3D</li>
-                                <li class="label-nav"><span class="icon m-r-16"><i class="fas fa-check l-ht-32"></i></span>Delivery & Installation</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col col-md-6 d-flex al-it-ct jst-ct">
-                        <div class="specialization__image">
-                            <img class="specialization__image__img" src="./assets/img/specialization-img.png" alt="specialization image">
-                        </div>
-                    </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="testimonials__carousel">
+            <div class="carousel">
+              <div class="carousel__item">
+                <div class="testimonials__item bd-rd-24">
+                  <p class="desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
+                  <h4 class="caption caption--b m-b-2">Carla Wildner</h4>
+                  <p class="desc desc--card">New York</p>
                 </div>
+              </div>
+              <div class="carousel__item">
+                <div class="testimonials__item bd-rd-24">
+                  <p class="desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
+                  <h4 class="caption caption--b m-b-2">Marleah Eagleston</h4>
+                  <p class="desc desc--card">San Francisco</p>
+                </div>
+              </div>
+              <div class="carousel__item">
+                <div class="testimonials__item bd-rd-24">
+                  <p class="desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
+                  <h4 class="caption caption--b m-b-2">Oluchi Mazi</h4>
+                  <p class="desc desc--card">Washington</p>
+                </div>
+              </div>
+              <div class="carousel__item">
+                <div class="testimonials__item bd-rd-24">
+                  <p class="desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
+                  <h4 class="caption caption--b m-b-2">Carla Wildner</h4>
+                  <p class="desc desc--card">New York</p>
+                </div>
+              </div>
+              <div class="carousel__item">
+                <div class="testimonials__item bd-rd-24">
+                  <p class="desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
+                  <h4 class="caption caption--b m-b-2">Marleah Eagleston</h4>
+                  <p class="desc desc--card">San Francisco</p>
+                </div>
+              </div>
             </div>
-        </section>
-        <section class="features p-b-185 p-b-242-lg" id="features">
-            <div class="container features-container c-white h-100">
-                <div class="row h-100 m-b-20 m-b-32-lg">
-                    <div class="col d-flex al-it-ct jst-ct">
-                        <div class="features__content txt-al-ct">
-                            <h2 class="subtitle m-b-18 m-b-22-lg">FEATURES</h2>
-                            <h3 class="title-2 title-2--b title-2-lg">Explore Our Advantages & Best Features</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row h-100">
-                    <div class="col col-md-6 col-lg-3 d-flex jst-ct al-it-ct">
-                        <div class="features__card d-flex flex-dir-col bd-rd-24">
-                            <img class="features__card__img m-b-106" src="./assets/img/features-icon-kitchen.png" alt="kitchen icon">
-                            <h4 class="caption caption--b m-b-18">Professional</h4>
-                            <p class="desc desc--card op-50">The sky was cloudless and of a deep dark blue.</p>
-                        </div>
-                    </div>
-                    <div class="col col-md-6 col-lg-3 d-flex jst-ct al-it-ct">
-                        <div class="features__card d-flex flex-dir-col bd-rd-24">
-                            <img class="features__card__img m-b-106" src="./assets/img/features-icon-chef-hat.png" alt="chef hat icon">
-                            <h4 class="caption caption--b m-b-18">Materials</h4>
-                            <p class="desc desc--card op-50">Cloudless and of a deep dark blue spectacle.</p>
-                        </div>
-                    </div>
-                    <div class="col col-md-6 col-lg-3 d-flex jst-ct al-it-ct">
-                        <div class="features__card d-flex flex-dir-col bd-rd-24">
-                            <img class="features__card__img m-b-106" src="./assets/img/features-icon-glove.png" alt="glove icon">
-                            <h4 class="caption caption--b m-b-18">Quality</h4>
-                            <p class="desc desc--card op-50">Deep dark blue spectacle before us was indeed.</p>
-                        </div>
-                    </div>
-                    <div class="col col-md-6 col-lg-3 d-flex jst-ct al-it-ct">
-                        <div class="features__card d-flex flex-dir-col bd-rd-24">
-                            <img class="features__card__img m-b-106" src="./assets/img/features-icon-beater.png" alt="beater icon">
-                            <h4 class="caption caption--b m-b-18">Experts</h4>
-                            <p class="desc desc--card op-50">Before us was indeed sublime sky was.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="team p-b-113 p-b-157-lg " id="team">
-            <div class="container team-container c-white h-100">
-                <div class="row h-100">
-                    <div class="col col-md-6 d-flex al-it-ct jst-ct">
-                        <div class="team__image">
-                            <img class="team__image__img" src="./assets/img/team-img.png" alt="team image">
-                        </div>
-                    </div>
-                    <div class="col col-md-6 d-flex al-it-ct">
-                        <div class="team__content p-b-35 p-b-un">
-                            <h2 class="subtitle m-b-18 m-b-22-lg">TEAM</h2>
-                            <h3 class="title-2 title-2--b title-2-lg m-b-29 m-b-25-lg">Our Team Members</h3>
-                            <p class="desc m-b-25">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle.</p>
-                            <div class="d-flex al-it-ct gap-15 m-b-32">
-                                <div class="team__content__avatars d-in-flex flex-dr-rr jst-f-e">
-                                    <img class="team__avatar__img m-l-n16" src="./assets/img/team-avatar.png" alt="avatar">
-                                    <img class="team__avatar__img m-l-n16" src="./assets/img/team-avatar.png" alt="avatar">
-                                    <img class="team__avatar__img m-l-n16" src="./assets/img/team-avatar.png" alt="avatar">
-                                    <img class="team__avatar__img" src="./assets/img/team-avatar.png" alt="avatar">
-                                </div>
-                                <h4 class="caption caption--b d-in-block">42 +</h4>
-                            </div>
-                            <a class="btn btn--lg label-btn" href="#">EXPLORE</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </div>
     </div>
-    <section class="testimonials p-t-77 p-t-109-lg p-b-125" id="testimonials">
-        <div class="container portfolio-container">
-            <div class="row m-b-33 m-b-28-lg">
-                <div class="col">
-                    <h2 class="subtitle m-b-18 m-b-13-lg c-pink">TESTIMONIALS</h2>
-                    <div class="d-flex jst-sp-btw al-it-fs flex-wr">
-                        <h3 class="title-2 title-2--b title-2-lg m-b-34">Clients Says</h3>
-                        <a class="btn btn--md btn--trans btn--trans--pink label-btn" href="#">SEE ALL</a>
-                    </div>
-                </div>
+  </section>
+  <section class="news p-b-108 p-b-98-lg" id="news">
+      <div class="container news-container">
+          <div class="row h-100 m-b-20 m-b-32-lg">
+              <div class="col d-flex al-it-ct jst-ct">
+                  <div class="news__content txt-al-ct">
+                      <h2 class="subtitle m-b-18 m-b-22-lg c-pink">NEWS</h2>
+                      <h3 class="title-2 title-2--b title-2-lg">Latest Articles</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="row h-100 m-b-34 c-white">
+              <div class="col col-md-6 d-flex jst-ct al-it-ct">
+                  <div class="news__card d-flex flex-dir-col bd-rd-24 p-t-172 p-t-236-lg p-b-38">
+                      <div class="card__date txt-al-ct">
+                          <h4 class="caption caption--b">14</h4>
+                          <p class="desc desc--card m-t-n10">Sep</p>
+                      </div>
+                      <p class="desc desc--card op-50 m-b-14">Professional</p>
+                      <h4 class="caption caption--b">3 Design Lessons from New York's First Micro Apartments.</h4>
+                  </div>
+              </div>
+              <div class="col col-md-6 d-flex jst-ct al-it-ct">
+                  <div class="news__card d-flex flex-dir-col bd-rd-24 p-t-172 p-t-236-lg p-b-38">
+                      <div class="card__date txt-al-ct">
+                          <h4 class="caption caption--b">10</h4>
+                          <p class="desc desc--card m-t-n10">Sep</p>
+                      </div>
+                      <p class="desc desc--card op-50 m-b-14">Materials</p>
+                      <h4 class="caption caption--b">Interesting Pedestrian Bridge Designs From Around The World.</h4>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <div class="news__see-more txt-al-ct">
+                      <a href="#" class="btn btn--sm btn--trans btn--trans--pink label-btn">SEE MORE</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="contact p-b-98 p-b-130-lg " id="contact">
+      <div class="container contact-container h-100">
+          <div class="row h-100">
+              <div class="col col-md-6 d-flex al-it-ct m-b-64">
+                  <div class="contact__content">
+                      <h2 class="subtitle m-b-18 m-b-22-lg c-pink">CONTACT</h2>
+                      <h3 class="title-2 title-2--b title-2-lg m-b-30 m-b-26-lg">Come & Visit to Our Showroom</h3>
+                      <p class="desc desc--card c-black-desc op-50">Office</p>
+                      <p class="desc c-black-desc m-b-31">7587 Longfellow Road Ankeny, IA 50023</p>
+                      <ul class="d-flex flex-dir-col gap-16 m-b-36">
+                          <li class="desc desc--card"><span class="icon m-r-16"><i class="fas fa-phone-alt l-ht-32 c-white"></i></span>+1 (234) 567-89-01</li>
+                          <li class="desc desc--card"><span class="icon m-r-16"><i class="fas fa-envelope l-ht-32 c-white"></i></span>info@kitchen.com</li>
+                      </ul>
+                      <a class="btn btn--md btn--black label-btn" href="#">CONTACT US</a>
+                  </div>
+              </div>
+              <div class="col col-md-6 d-flex al-it-ct jst-ct">
+                  <div class="contact__image bd-rd-32">
+                      <img class="contact__image__img bd-rd-32" src="./assets/img/contact-img.png" alt="about image">
+                      <img class="contact__pin__img" src="./assets/img/pin.png" alt="">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="newsletter p-t-95 p-b-81 p-b-69-lg" id="newsletter">
+      <div class="container newsletter-container h-100">
+          <div class="row h-100 c-white">
+              <div class="col col-md-7 m-b-6">
+                  <div class="newsletter__subscribe">
+                      <h3 class="title-2 title-2--b m-b-14">Subscribe To Newsletter</h3>
+                      <p class="desc desc--card op-50">The sky was cloudless and of a deep dark blue spectacle.</p>
+                  </div>
+              </div>
+              <div class="col col-md-5">
+                  <div class="newsletter__email">
+                      <form action="/submit" class="d-flex jst-f-e-md flex-dir-col flex-dir-row-md gap-16">
+                          <input class="newsletter__email__input desc desc--card bd-0 bd-rd-8" type="email" name="newsletter__email" id="email" value="Your Email">
+                          <button class="btn btn-wide label-btn bd-0" type="submit">SUBSCRIBE</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <footer class="footer p-t-95 p-t-47-lg" id="footer">
+      <div class="container footer-container">
+          <div class="row h-100 c-white m-b-49 m-b-22-lg">
+              <div class="col col-md-3  txt-al-ct txt-al-ini-md">
+                  <a class="label-logo label-logo--b c-white" href="#kitchen">KTC</a>
+              </div>
+              <div class="col col-md-3">
+                  <div class="footer__menu d-flex flex-dir-col al-it-ct al-it-fs-md">
+                      <h2 class="subtitle c-pink">MENU</h2>
+                      <ul class="txt-al-ct txt-al-ini-md">
+                          <li><a class="desc desc--card c-white" href="#">About</a></li>
+                          <li><a class="desc desc--card c-white" href="#">Kitchens</a></li>
+                          <li><a class="desc desc--card c-white" href="#">Blog</a></li>
+                          <li><a class="desc desc--card c-white" href="#">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col col-md-3">
+                  <div class="footer__service d-flex flex-dir-col al-it-ct al-it-fs-md">
+                      <h2 class="subtitle c-pink">SERVICE</h2>
+                      <ul class="txt-al-ct txt-al-ini-md">
+                          <li><a class="desc desc--card c-white" href="#">Professional</a></li>
+                          <li><a class="desc desc--card c-white" href="#">Materials</a></li>
+                          <li><a class="desc desc--card c-white" href="#">Quality</a></li>
+                          <li><a class="desc desc--card c-white" href="#">Expert</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col col-md-3">
+                  <div class="footer__social d-flex flex-dir-col al-it-ct al-it-fs-md">
+                      <h2 class="subtitle c-pink">SOCIAL</h2>
+                      <div class="d-flex gap-8">
+                        <img class="social__icon__img" src="./assets/img/icon-fb.png" alt="facebook">
+                        <img class="social__icon__img" src="./assets/img/icon-twitter.png" alt="twitter">
+                        <img class="social__icon__img" src="./assets/img/icon-instagram.png" alt="instagram">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row h-100 c-white d-flex jst-sp-btw">
+            <div class="col col-md-9">
+              <div class="d-flex jst-ct jst-f-s-md txt-al-ct txt-al-ini-md">
+                <p class="footer__copyright desc desc--card ">Copyright © 2020 Laaqiq. All Rights Reserved.</p>
+              </div>
             </div>
-        </div>
-    </section>
-    <section class="news p-b-108 p-b-98-lg" id="news">
-        <div class="container news-container">
-            <div class="row h-100 m-b-20 m-b-32-lg">
-                <div class="col d-flex al-it-ct jst-ct">
-                    <div class="news__content txt-al-ct">
-                        <h2 class="subtitle m-b-18 m-b-22-lg c-pink">NEWS</h2>
-                        <h3 class="title-2 title-2--b title-2-lg">Latest Articles</h3>
-                    </div>
-                </div>
+            <div class="col col-md-3">
+              <div class="d-flex jst-ct jst-f-s-md  d-flex gap-55 txt-al-ct txt-al-ini-md">
+                <p>Terms of Use</p>
+                <p>Privacy Policy</p>
+              </div>
             </div>
-            <div class="row h-100 m-b-34 c-white">
-                <div class="col col-md-6 d-flex jst-ct al-it-ct">
-                    <div class="news__card d-flex flex-dir-col bd-rd-24 p-t-172 p-t-236-lg p-b-38">
-                        <div class="card__date txt-al-ct">
-                            <h4 class="caption caption--b">14</h4>
-                            <p class="desc desc--card m-t-n10">Sep</p>
-                        </div>
-                        <p class="desc desc--card op-50 m-b-14">Professional</p>
-                        <h4 class="caption caption--b">3 Design Lessons from New York's First Micro Apartments.</h4>
-                    </div>
-                </div>
-                <div class="col col-md-6 d-flex jst-ct al-it-ct">
-                    <div class="news__card d-flex flex-dir-col bd-rd-24 p-t-172 p-t-236-lg p-b-38">
-                        <div class="card__date txt-al-ct">
-                            <h4 class="caption caption--b">10</h4>
-                            <p class="desc desc--card m-t-n10">Sep</p>
-                        </div>
-                        <p class="desc desc--card op-50 m-b-14">Materials</p>
-                        <h4 class="caption caption--b">Interesting Pedestrian Bridge Designs From Around The World.</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="news__see-more txt-al-ct">
-                        <a href="#" class="btn btn--sm btn--trans btn--trans--pink label-btn">SEE MORE</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="contact p-b-98 p-b-130-lg " id="contact">
-        <div class="container contact-container h-100">
-            <div class="row h-100">
-                <div class="col col-md-6 d-flex al-it-ct m-b-64">
-                    <div class="contact__content">
-                        <h2 class="subtitle m-b-18 m-b-22-lg c-pink">CONTACT</h2>
-                        <h3 class="title-2 title-2--b title-2-lg m-b-30 m-b-26-lg">Come & Visit to Our Showroom</h3>
-                        <p class="desc desc--card c-black-desc op-50">Office</p>
-                        <p class="desc c-black-desc m-b-31">7587 Longfellow Road Ankeny, IA 50023</p>
-                        <ul class="d-flex flex-dir-col gap-16 m-b-36">
-                            <li class="desc desc--card"><span class="icon m-r-16"><i class="fas fa-phone-alt l-ht-32 c-white"></i></span>+1 (234) 567-89-01</li>
-                            <li class="desc desc--card"><span class="icon m-r-16"><i class="fas fa-envelope l-ht-32 c-white"></i></span>info@kitchen.com</li>
-                        </ul>
-                        <a class="btn btn--md btn--black label-btn" href="#">CONTACT US</a>
-                    </div>
-                </div>
-                <div class="col col-md-6 d-flex al-it-ct jst-ct">
-                    <div class="contact__image bd-rd-32">
-                        <img class="contact__image__img bd-rd-32" src="./assets/img/contact-img.png" alt="about image">
-                        <img class="contact__pin__img" src="./assets/img/pin.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="newsletter p-t-95 p-b-81 p-b-69-lg" id="newsletter">
-        <div class="container newsletter-container h-100">
-            <div class="row h-100 c-white">
-                <div class="col col-md-7 m-b-6">
-                    <div class="newsletter__subscribe">
-                        <h3 class="title-2 title-2--b m-b-14">Subscribe To Newsletter</h3>
-                        <p class="desc desc--card op-50">The sky was cloudless and of a deep dark blue spectacle.</p>
-                    </div>
-                </div>
-                <div class="col col-md-5">
-                    <div class="newsletter__email">
-                        <form action="/submit" class="d-flex jst-f-e-md flex-dir-col flex-dir-row-md gap-16">
-                            <input class="newsletter__email__input desc desc--card bd-0 bd-rd-8" type="email" name="newsletter__email" id="email" value="Your Email">
-                            <button class="btn btn-wide label-btn bd-0" type="submit">SUBSCRIBE</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="footer p-t-95 p-t-47-lg" id="footer">
-        <div class="container footer-container">
-            <div class="row h-100 c-white m-b-49 m-b-22-lg">
-                <div class="col col-md-3 txt-al-ct">
-                    <a class="label-logo label-logo--b c-white txt-al-ct" href="#kitchen">KTC</a>
-                </div>
-                <div class="col col-md-3">
-                    <div class="footer__menu d-flex flex-dir-col al-it-ct al-it-fs-md">
-                        <h2 class="subtitle c-pink">MENU</h2>
-                        <ul class="txt-al-ct txt-al-ini-md">
-                            <li><a class="desc desc--card c-white" href="#">About</a></li>
-                            <li><a class="desc desc--card c-white" href="#">Kitchens</a></li>
-                            <li><a class="desc desc--card c-white" href="#">Blog</a></li>
-                            <li><a class="desc desc--card c-white" href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col col-md-3">
-                    <div class="footer__service d-flex flex-dir-col al-it-ct al-it-fs-md">
-                        <h2 class="subtitle c-pink">SERVICE</h2>
-                        <ul class="txt-al-ct txt-al-ini-md">
-                            <li><a class="desc desc--card c-white" href="#">Professional</a></li>
-                            <li><a class="desc desc--card c-white" href="#">Materials</a></li>
-                            <li><a class="desc desc--card c-white" href="#">Quality</a></li>
-                            <li><a class="desc desc--card c-white" href="#">Expert</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col col-md-3">
-                    <div class="footer__social d-flex flex-dir-col al-it-ct al-it-fs-md">
-                        <h2 class="subtitle c-pink">SOCIAL</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row h-100 c-white">
-                
-            </div>
-        </div>
-    </footer>
+          </div>
+      </div>
+  </footer>
+  <!-- Javascript -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script>
+    // window.onscroll = () => {
+    //   const navbar = document.querySelector("#navbar");
+    //   // navbar height is 80
+    //   if (this.scrollY <= 80) navbar.className = "";
+    //   else navbar.className = "navbar--scroll";
+    // };
+
+    var flkty = new Flickity(".carousel", {
+      freeScroll: true,
+      wrapAround: true,
+    });
+  </script>
 </body>
 </html>

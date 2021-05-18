@@ -14,6 +14,10 @@
   margin-top: -1rem;
 }
 
+.m-b-2 {
+  margin-bottom: 0.6rem;
+}
+
 .m-b-6 {
   margin-bottom: 0.6rem;
 }
@@ -242,6 +246,10 @@
   line-height: 3.2rem;
 }
 
+.gap-8 {
+  gap: 0.8rem;
+}
+
 .gap-15 {
   gap: 1.6rem;
 }
@@ -256,6 +264,10 @@
 
 .gap-30 {
   gap: 3rem;
+}
+
+.gap-55 {
+  gap: 5.5rem;
 }
 
 .bd-0 {
@@ -330,6 +342,9 @@
     margin-bottom: 2.5rem;
   }
   .m-b-26-lg {
+    margin-bottom: 2.6rem;
+  }
+  .m-b-27-lg {
     margin-bottom: 2.6rem;
   }
   .m-b-28-lg {
@@ -915,6 +930,11 @@ a {
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
+  .jst-f-s-md {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1123,6 +1143,55 @@ a {
   }
 }
 
+.carousel {
+  min-height: 400px;
+  height: 100%;
+}
+
+.carousel__item {
+  width: 370px;
+  margin: 0 15px;
+}
+
+.flickity-prev-next-button.previous {
+  top: 16.7rem;
+  left: 0;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.flickity-prev-next-button.next {
+  top: 16.7rem;
+  right: 0;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.flickity-page-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 1.6rem;
+}
+
+.dot {
+  background: #edcdc2;
+  width: 0.8rem !important;
+  height: 0.8rem !important;
+}
+
+.dot.is-selected {
+  background: #e3775e;
+  width: 1.6rem !important;
+  height: 1.6rem !important;
+}
+
 #header {
   padding: 1.6rem 2.4rem;
   background: #e3775e;
@@ -1275,6 +1344,13 @@ a {
   height: 64px;
 }
 
+.testimonials__item {
+  max-height: 336px;
+  height: 100%;
+  background: #fff;
+  padding: 4.3rem 3.2rem 3.6rem;
+}
+
 .news__card {
   position: relative;
   max-width: 330px;
@@ -1333,6 +1409,16 @@ a {
 input,
 button {
   font-family: "Kufam", cursive;
+}
+
+.social__icon__img {
+  width: 48px;
+  height: 48px;
+}
+
+.footer__copyright {
+  max-width: 200px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {

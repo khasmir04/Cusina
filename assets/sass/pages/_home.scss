@@ -148,6 +148,14 @@
   height: 64px;
 }
 
+//Testimonials
+.testimonials__item {
+  max-height: 336px;
+  height: 100%;
+  background: $color-white;
+  padding: 4.3rem 3.2rem 3.6rem;
+}
+
 //News
 .news__card {
   position: relative;
@@ -205,6 +213,17 @@
 input,
 button {
   font-family: $font-kufam;
+}
+
+//Footer
+.social__icon__img {
+  width: 48px;
+  height: 48px;
+}
+
+.footer__copyright {
+  max-width: 200px;
+  width: 100%;
 }
 
 //Media Queries
