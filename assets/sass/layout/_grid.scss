@@ -91,6 +91,10 @@
   height: 100vh;
 }
 
+.min-h-700 {
+  min-height: 700px;
+}
+
 // xs
 .col-1 {
   width: calc(1 / 12 * 100%);
@@ -319,6 +323,14 @@
 
   .flex-dir-row-lg {
     flex-direction: row;
+  }
+
+  .vh-100-lg {
+    height: 100vh;
+  }
+
+  .min-h-700-lg {
+    min-height: 700px;
   }
 }
 

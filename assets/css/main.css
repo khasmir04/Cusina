@@ -142,8 +142,16 @@
   padding-top: 8rem;
 }
 
+.p-t-10 {
+  padding-top: 1rem;
+}
+
 .p-t-12 {
   padding-top: 1.2rem;
+}
+
+.p-t-50 {
+  padding-top: 5rem;
 }
 
 .p-t-60 {
@@ -408,6 +416,9 @@
   }
   .p-t-47-lg {
     padding-top: 4.7rem;
+  }
+  .p-t-in-lg {
+    padding-top: initial;
   }
   .p-t-130-lg {
     padding-top: 13rem;
@@ -796,6 +807,10 @@ a {
   height: 100vh;
 }
 
+.min-h-700 {
+  min-height: 700px;
+}
+
 .col-1 {
   width: calc(1 / 12 * 100%);
 }
@@ -993,6 +1008,12 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .vh-100-lg {
+    height: 100vh;
+  }
+  .min-h-700-lg {
+    min-height: 700px;
   }
 }
 
@@ -1224,7 +1245,6 @@ a {
 }
 
 #kitchen {
-  min-height: 700px;
   background: #e3775e;
   background: -webkit-gradient(linear, left top, right top, color-stop(100%, #e3775e), to(#ffa28d));
   background: linear-gradient(90deg, #e3775e 100%, #ffa28d 100%);

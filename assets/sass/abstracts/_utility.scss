@@ -143,8 +143,16 @@
   padding-top: 8rem;
 }
 
+.p-t-10 {
+  padding-top: 1rem;
+}
+
 .p-t-12 {
   padding-top: 1.2rem;
+}
+
+.p-t-50 {
+  padding-top: 5rem;
 }
 
 .p-t-60 {
@@ -447,6 +455,10 @@
 
   .p-t-47-lg {
     padding-top: 4.7rem;
+  }
+
+  .p-t-in-lg {
+    padding-top: initial;
   }
 
   .p-t-130-lg {
