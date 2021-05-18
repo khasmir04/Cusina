@@ -11,9 +11,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Font family -->
     <link href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- custom style sheets -->
+    <!-- Third party -->
+    <!-- Javascript -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- Stylings -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"/>
+    <!-- Main css -->
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
@@ -25,9 +31,9 @@
           <nav class="header__nav d-none d-vis">
               <ul class="nav-menu d-flex jst-sp-btw">
                   <li class="nav-menu__item m-r-78"><a class="c-white label-nav" href="#about">About</a></li>
-                  <li class="nav-menu__item m-r-78"><a class="c-white label-nav" href="#">Kitchens</a></li>
-                  <li class="nav-menu__item m-r-78"><a class="c-white label-nav" href="#">Blog</a></li>
-                  <li class="nav-menu__item"><a class="c-white label-nav" href="#">Contact</a></li>
+                  <li class="nav-menu__item m-r-78"><a class="c-white label-nav" href="#kitchen">Kitchens</a></li>
+                  <li class="nav-menu__item m-r-78"><a class="c-white label-nav" href="#news">Blog</a></li>
+                  <li class="nav-menu__item"><a class="c-white label-nav" href="#contact">Contact</a></li>
               </ul>
           </nav>
           <div class="header__contact d-none d-vis">
@@ -274,7 +280,7 @@
               </div>
               <div class="carousel__item">
                 <div class="testimonials__item bd-rd-24">
-                  <p class="desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
+                  <p class="desc m-b-26 m-b-27-lg">""Sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue.""</p>
                   <h4 class="caption caption--b m-b-2">Marleah Eagleston</h4>
                   <p class="desc desc--card">San Francisco</p>
                 </div>
@@ -365,7 +371,9 @@
               </div>
               <div class="col col-md-6 d-flex al-it-ct jst-ct">
                   <div class="contact__image bd-rd-32">
-                      <img class="contact__image__img bd-rd-32" src="./assets/img/contact-img.png" alt="about image">
+                      <!-- <img class="contact__image__img bd-rd-32" src="./assets/img/contact-img.png" alt="about image"> -->
+                      <div id="map" class="contact__map">
+                      </div>
                       <img class="contact__pin__img" src="./assets/img/pin.png" alt="">
                   </div>
               </div>
@@ -446,8 +454,6 @@
           </div>
       </div>
   </footer>
-  <!-- Javascript -->
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script>
     // window.onscroll = () => {
     //   const navbar = document.querySelector("#navbar");
@@ -455,7 +461,26 @@
     //   if (this.scrollY <= 80) navbar.className = "";
     //   else navbar.className = "navbar--scroll";
     // };
+    window.onscroll = function() {scrollFunction()};
 
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("header").style.padding = "0.5rem 2.4rem";
+      } else {
+        document.getElementById("header").style.padding = "1.6rem 2.4rem";
+      }
+    }
+
+    // Mapbox
+    mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhc21pcjA0IiwiYSI6ImNrb3RucDNlNjBkMW8zMWxsMG0xdnN1eXgifQ.v6vCR3UsmPbgnYk03kUHhg';
+    
+    var map = new mapboxgl.Map({
+      container: 'map', // container id
+      style: 'mapbox://styles/khasmir04/ckotpyn7300gl17ps4a2czjdr', // custom style url from https://studio.mapbox.com/
+      center: [-74.5, 40], // starting position
+      zoom: 9 // starting zoom
+    });
+    
     var flkty = new Flickity(".carousel", {
       freeScroll: true,
       wrapAround: true,

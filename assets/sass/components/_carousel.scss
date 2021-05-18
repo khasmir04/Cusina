@@ -5,7 +5,8 @@
 
 .carousel__item {
   //   height: 400px;
-  width: 370px;
+  //   max-width: 336px;
+  width: 100%;
   margin: 0 15px;
 }
 
@@ -38,5 +39,12 @@
     background: $color-dot-enabled;
     width: 1.6rem !important;
     height: 1.6rem !important;
+  }
+}
+
+// md 768-991
+@media screen and (min-width: 768px) {
+  .carousel__item {
+    max-width: 370px;
   }
 }
