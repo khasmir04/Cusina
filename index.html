@@ -22,6 +22,25 @@
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
+  <!-- TEST HAMBURGER -->
+  <div class="sidebar d-none-lg">
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <li class="nav-menu__item"><a class="label-nav" href="#about">About</a></li>
+          <li class="nav-menu__item"><a class="label-nav" href="#kitchen">Kitchens</a></li>
+          <li class="nav-menu__item"><a class="label-nav" href="#news">Blog</a></li>
+          <li class="nav-menu__item"><a class="label-nav" href="#contact">Contact</a></li>
+          <li><a href="#" class="btn label-btn">CONTACT US</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- TEST HAMBURGER -->
   <header class="header" id="header">
       <div class="container-fluid d-flex jst-sp-btw c-white al-it-ct">
           <div class="header__logo label-logo label-logo--b">
@@ -39,6 +58,7 @@
               <a href="#" class="btn btn--trans label-btn">CONTACT US</a>
           </div>
       </div>
+
   </header>
   <section class="kitchen vh-100-lg min-h-700-lg p-b-50 p-b-un" id="kitchen">
       <div class="container kitchen-container h-100 p-t-80">
@@ -458,12 +478,6 @@
   </footer>
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
   <script>
-    // window.onscroll = () => {
-    //   const navbar = document.querySelector("#navbar");
-    //   // navbar height is 80
-    //   if (this.scrollY <= 80) navbar.className = "";
-    //   else navbar.className = "navbar--scroll";
-    // };
     window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
@@ -475,6 +489,7 @@
     }
 
     // Mapbox
+    // Interactive - disable this if using static
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhc21pcjA0IiwiYSI6ImNrb3RucDNlNjBkMW8zMWxsMG0xdnN1eXgifQ.v6vCR3UsmPbgnYk03kUHhg';
     
     var map = new mapboxgl.Map({
