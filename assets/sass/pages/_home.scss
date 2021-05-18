@@ -216,6 +216,16 @@ button {
 }
 
 //Footer
+
+.footer-container > :last-of-type.row::before {
+  display: inline-block;
+  content: "";
+  border-top: 0.1rem solid $color-break-brown;
+  width: 100%;
+  margin: 0 1.5rem 2.7rem;
+  // transform: translateY(-1rem);
+}
+
 .social__icon__img {
   width: 48px;
   height: 48px;
@@ -264,6 +274,9 @@ button {
   .contact__image {
     max-width: 570px;
     width: 100%;
+  }
+  .footer__copyright {
+    max-width: initial;
   }
 }
 

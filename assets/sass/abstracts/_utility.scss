@@ -187,8 +187,16 @@
   padding: 4.8rem;
 }
 
+.p-b-21 {
+  padding-bottom: 2.1rem;
+}
+
 .p-b-35 {
   padding-bottom: 3.5rem;
+}
+
+.p-b-36 {
+  padding-bottom: 3.6rem;
 }
 
 .p-b-38 {
@@ -324,6 +332,9 @@
 @media screen and (min-width: 768px) {
   .txt-al-ini-md {
     text-align: initial;
+  }
+  .p-t-14-md {
+    padding-top: 1.4rem;
   }
 }
 
