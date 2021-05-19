@@ -1735,5 +1735,9 @@ button {
     max-width: 185px;
     width: 100%;
   }
+  .features__content {
+    max-width: 800px;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
