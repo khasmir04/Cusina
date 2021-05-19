@@ -207,6 +207,7 @@
 .contact__map {
   width: 100%;
   height: 100%;
+  object-fit: cover;
   min-height: 576px;
   & .mapboxgl-canvas {
     border-radius: 3.2rem;
