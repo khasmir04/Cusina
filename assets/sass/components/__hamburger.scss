@@ -8,20 +8,11 @@
   }
 }
 
-a {
-  color: #232323;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: tomato;
-}
-
 #menuToggle {
   display: block;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -5px;
+  right: -5px;
   z-index: 1;
 
   -webkit-user-select: none;
@@ -100,7 +91,7 @@ a:hover {
   position: absolute;
   width: 300px;
   height: calc(100vh + 100px);
-  margin: -100px 0 0 0;
+  margin: -100px -15px 0 0;
   padding: 25px;
   padding-top: 100px;
   right: -100px;

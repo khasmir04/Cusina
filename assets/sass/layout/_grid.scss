@@ -29,6 +29,10 @@
   display: none;
 }
 
+.d-ini {
+  display: initial;
+}
+
 // Flex properties
 .flex-dr-rr {
   flex-direction: row-reverse;
@@ -264,6 +268,14 @@
 
   .jst-f-s-md {
     justify-content: flex-start;
+  }
+
+  .d-in-md {
+    display: inline;
+  }
+
+  .d-none-md {
+    display: none;
   }
 }
 

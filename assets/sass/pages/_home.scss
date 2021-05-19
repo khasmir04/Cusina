@@ -43,6 +43,17 @@
   background: $color-bg-brown;
 }
 
+//Header
+.header__logo__title {
+  & > span:hover {
+    color: $color-bg-pink-dark;
+    background-color: white;
+  }
+}
+
+.header__logo__img {
+}
+
 //Kitchen
 .kitchen__image {
   display: flex;
@@ -217,7 +228,6 @@ button {
 }
 
 //Footer
-
 .footer-container > :last-of-type.row::before {
   display: inline-block;
   content: "";
@@ -279,10 +289,18 @@ button {
   .footer__copyright {
     max-width: initial;
   }
+  .footer__logo__img {
+    max-width: 160px;
+    width: 100%;
+  }
 }
 
 // lg 992-1199
 @media screen and (min-width: 992px) {
+  .footer__logo__img {
+    max-width: 185px;
+    width: 100%;
+  }
 }
 
 // xl 1200-1399

@@ -194,6 +194,10 @@
   padding: 4.8rem;
 }
 
+.p-b-10 {
+  padding-bottom: 1rem;
+}
+
 .p-b-21 {
   padding-bottom: 2.1rem;
 }
@@ -324,6 +328,10 @@
 
 .ver-al-mid {
   vertical-align: middle;
+}
+
+.txt-upper {
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
@@ -742,6 +750,10 @@ a {
   display: none;
 }
 
+.d-ini {
+  display: initial;
+}
+
 .flex-dr-rr {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -980,6 +992,12 @@ a {
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
+  .d-in-md {
+    display: inline;
+  }
+  .d-none-md {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1134,21 +1152,11 @@ a {
   position: absolute;
 }
 
-a {
-  color: #232323;
-  -webkit-transition: color 0.3s ease;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: tomato;
-}
-
 #menuToggle {
   display: block;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -5px;
+  right: -5px;
   z-index: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1238,7 +1246,7 @@ a:hover {
   position: absolute;
   width: 300px;
   height: calc(100vh + 100px);
-  margin: -100px 0 0 0;
+  margin: -100px -15px 0 0;
   padding: 25px;
   padding-top: 100px;
   right: -100px;
@@ -1270,6 +1278,16 @@ a:hover {
   opacity: 1;
 }
 
+a {
+  color: #232323;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: tomato;
+}
+
 .btn {
   display: inline-block;
   color: #fff;
@@ -1286,6 +1304,11 @@ a:hover {
 .btn.btn--trans.btn--trans--pink {
   color: #e3775e;
   border: 1px solid #e3775e;
+}
+
+.btn.btn--trans:hover {
+  color: #fff;
+  background: #122798;
 }
 
 .btn.btn--sm {
@@ -1315,6 +1338,12 @@ a:hover {
 
 .btn.btn--black {
   background: #111;
+}
+
+.btn:hover {
+  color: #122798;
+  background: #fff;
+  cursor: pointer;
 }
 
 .btn-wide {
@@ -1443,6 +1472,11 @@ a:hover {
 
 #footer {
   background: #442017;
+}
+
+.header__logo__title > span:hover {
+  color: #d45f44;
+  background-color: white;
 }
 
 .kitchen__image {
@@ -1678,6 +1712,17 @@ button {
   }
   .footer__copyright {
     max-width: initial;
+  }
+  .footer__logo__img {
+    max-width: 160px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer__logo__img {
+    max-width: 185px;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -22,29 +22,13 @@
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-  <!-- TEST HAMBURGER -->
-  <div class="sidebar d-none-lg">
-    <nav role="navigation">
-      <div id="menuToggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul id="menu">
-          <li class="nav-menu__item"><a class="label-nav" href="#about">About</a></li>
-          <li class="nav-menu__item"><a class="label-nav" href="#kitchen">Kitchens</a></li>
-          <li class="nav-menu__item"><a class="label-nav" href="#news">Blog</a></li>
-          <li class="nav-menu__item"><a class="label-nav" href="#contact">Contact</a></li>
-          <li><a href="#" class="btn label-btn">CONTACT US</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <!-- TEST HAMBURGER -->
   <header class="header" id="header">
       <div class="container-fluid d-flex jst-sp-btw c-white al-it-ct">
           <div class="header__logo label-logo label-logo--b">
-              <a class="c-white" href="#kitchen">KTC</a>
+              <a class="header__logo__title c-white d-flex al-it-ct" href="#kitchen">
+                <img class="d-none d-in-md header__logo__img" src="./assets/img/logo-cropped.svg" alt="main-logo">
+                <img class="d-none-md header__logo__img" src="./assets/img/logo-utensils.svg" alt="main-logo">
+              </a>
           </div>
           <nav class="header__nav d-none d-vis">
               <ul class="nav-menu d-flex jst-sp-btw">
@@ -55,20 +39,39 @@
               </ul>
           </nav>
           <div class="header__contact d-none d-vis">
-              <a href="#" class="btn btn--trans label-btn">CONTACT US</a>
+              <a href="#" class="btn btn--trans label-btn txt-upper">Contact us</a>
           </div>
       </div>
-
+      <!-- TEST HAMBURGER -->
+      <div class="sidebar d-none-lg">
+        <nav role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <li class="nav-menu__item"><a class="label-nav" href="#kitchen">Home</a></li>
+              <li class="nav-menu__item"><a class="label-nav" href="#about">About</a></li>
+              <li class="nav-menu__item"><a class="label-nav" href="#kitchen">Kitchens</a></li>
+              <li class="nav-menu__item"><a class="label-nav" href="#news">Blog</a></li>
+              <li class="nav-menu__item"><a class="label-nav" href="#contact">Contact</a></li>
+              <li><a href="#" class="btn label-btn txt-upper">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- TEST HAMBURGER -->
   </header>
   <section class="kitchen vh-100-lg min-h-700-lg p-b-50 p-b-un" id="kitchen">
       <div class="container kitchen-container h-100 p-t-80">
           <div class="row h-100">
               <div class="col col-md-6 d-flex al-it-ct">
                   <div class="kitchen__content c-white">
-                      <h2 class="subtitle m-b-22 m-b-26-lg">KITCHEN</h2>
+                      <h2 class="subtitle m-b-22 m-b-26-lg txt-upper">Kitchen</h2>
                       <h3 class="title title--b title-lg m-b-9 m-b-21-lg">Your Dream Kitchen</h3>
                       <p class="desc m-b-16 m-b-33-lg">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime.</p>
-                      <a class="btn label-btn" href="#">EXPLORE KITCHENS</a>
+                      <a class="btn label-btn txt-upper" href="#">Explore Kitchens</a>
                   </div>
               </div>
               <div class="col col-md-6 d-flex al-it-ct jst-ct flex-order-min-1 flex-order-pos-2 p-t-50">
@@ -89,7 +92,7 @@
               </div>
               <div class="col col-md-6 d-flex al-it-ct">
                   <div class="about__content">
-                      <h2 class="subtitle m-b-22 m-b-26-lg c-pink">ABOUT</h2>
+                      <h2 class="subtitle m-b-22 m-b-26-lg c-pink txt-upper">About</h2>
                       <h3 class="title-2 title-2--b title-2-lg m-b-28 m-b-24-lg">Designed For Your Life</h3>
                       <h4 class="caption caption--b m-b-33">Our Collection Of Kitchens</h4>
                       <p class="desc m-b-16 m-b-33-lg">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle.</p>
@@ -111,7 +114,7 @@
       <div class="container portfolio-container">
         <div class="row">
           <div class="col">
-              <h2 class="subtitle m-b-18 m-b-22-lg c-pink">PORTFOLIO</h2>
+              <h2 class="subtitle m-b-18 m-b-22-lg c-pink txt-upper">Portfolio</h2>
               <h3 class="title-2 title-2--b title-2-lg m-b-40 m-b-62-lg">Our Projects</h3>
           </div>
         </div>
@@ -174,7 +177,7 @@
         <div class="row">
           <div class="col">
             <div class="portfolio__explore txt-al-ct">
-              <a href="#" class="btn btn--sm btn--trans btn--trans--pink label-btn">EXPLORE ALL</a>
+              <a href="#" class="btn btn--sm btn--trans btn--trans--pink label-btn txt-upper">Explore all</a>
             </div>
           </div>
         </div>
@@ -186,7 +189,7 @@
               <div class="row h-100">
                   <div class="col col-md-6 d-flex al-it-ct">
                       <div class="specialization__content p-b-35 p-b-un">
-                          <h2 class="subtitle m-b-18 m-b-22-lg">SPECIALIZATION</h2>
+                          <h2 class="subtitle m-b-18 m-b-22-lg txt-upper">Specialization</h2>
                           <h3 class="title-2 title-2--b title-2-lg m-b-29 m-b-25-lg">Expertise & Innovation</h3>
                           <p class="desc m-b-25">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle.</p>
                           <ul class="d-flex flex-dir-col gap-16">
@@ -209,7 +212,7 @@
               <div class="row h-100 m-b-20 m-b-32-lg">
                   <div class="col d-flex al-it-ct jst-ct">
                       <div class="features__content txt-al-ct">
-                          <h2 class="subtitle m-b-18 m-b-22-lg">FEATURES</h2>
+                          <h2 class="subtitle m-b-18 m-b-22-lg txt-upper">Features</h2>
                           <h3 class="title-2 title-2--b title-2-lg">Explore Our Advantages & Best Features</h3>
                       </div>
                   </div>
@@ -256,7 +259,7 @@
                   </div>
                   <div class="col col-md-6 d-flex al-it-ct">
                       <div class="team__content p-b-35 p-b-un">
-                          <h2 class="subtitle m-b-18 m-b-22-lg">TEAM</h2>
+                          <h2 class="subtitle m-b-18 m-b-22-lg txt-upper">Team</h2>
                           <h3 class="title-2 title-2--b title-2-lg m-b-29 m-b-25-lg">Our Team Members</h3>
                           <p class="desc m-b-25">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle.</p>
                           <div class="d-flex al-it-ct gap-15 m-b-32">
@@ -268,7 +271,7 @@
                               </div>
                               <h4 class="caption caption--b d-in-block">42 +</h4>
                           </div>
-                          <a class="btn btn--lg label-btn" href="#">EXPLORE</a>
+                          <a class="btn btn--lg label-btn txt-upper" href="#">Explore</a>
                       </div>
                   </div>
               </div>
@@ -279,10 +282,10 @@
     <div class="container testimonials-container">
       <div class="row m-b-33 m-b-28-lg">
         <div class="col">
-          <h2 class="subtitle m-b-18 m-b-13-lg c-pink">TESTIMONIALS</h2>
+          <h2 class="subtitle m-b-18 m-b-13-lg c-pink txt-upper">Testimonials</h2>
           <div class="d-flex jst-sp-btw al-it-fs flex-wr">
             <h3 class="title-2 title-2--b title-2-lg m-b-34">Clients Says</h3>
-            <a class="btn btn--md btn--trans btn--trans--pink label-btn" href="#">SEE ALL</a>
+            <a class="btn btn--md btn--trans btn--trans--pink label-btn txt-upper" href="#">See all</a>
           </div>
         </div>
       </div>
@@ -377,7 +380,7 @@
           <div class="row h-100">
               <div class="col col-md-6 d-flex al-it-ct m-b-64">
                   <div class="contact__content">
-                      <h2 class="subtitle m-b-18 m-b-22-lg c-pink">CONTACT</h2>
+                      <h2 class="subtitle m-b-18 m-b-22-lg c-pink txt-upper">Contact</h2>
                       <h3 class="title-2 title-2--b title-2-lg m-b-30 m-b-26-lg">Come & Visit to Our Showroom</h3>
                       <p class="desc desc--card c-black-desc op-50">Office</p>
                       <p class="desc c-black-desc m-b-31">7587 Longfellow Road Ankeny, IA 50023</p>
@@ -385,7 +388,7 @@
                           <li class="desc desc--card"><span class="icon m-r-16"><i class="fas fa-phone-alt l-ht-32 c-white"></i></span>+1 (234) 567-89-01</li>
                           <li class="desc desc--card"><span class="icon m-r-16"><i class="fas fa-envelope l-ht-32 c-white"></i></span>info@kitchen.com</li>
                       </ul>
-                      <a class="btn btn--md btn--black label-btn" href="#">CONTACT US</a>
+                      <a class="btn btn--md btn--black label-btn txt-upper" href="#">Contact Us</a>
                   </div>
               </div>
               <div class="col col-md-6 d-flex al-it-ct jst-ct">
@@ -415,7 +418,7 @@
                   <div class="newsletter__email">
                       <form action="/submit" class="d-flex jst-f-e-md flex-dir-col flex-dir-row-lg gap-16">
                           <input class="newsletter__email__input desc desc--card bd-0 bd-rd-8" type="email" name="newsletter__email" id="email" value="Your Email">
-                          <button class="btn btn-wide label-btn bd-0" type="submit">SUBSCRIBE</button>
+                          <button class="btn btn-wide label-btn bd-0 txt-upper" type="submit">Subscribe</button>
                       </form>
                   </div>
               </div>
@@ -426,11 +429,13 @@
       <div class="container footer-container">
           <div class="row h-100 c-white m-b-49 m-b-22-lg">
               <div class="col col-md-3  txt-al-ct txt-al-ini-md">
-                  <a class="label-logo label-logo--b c-white" href="#kitchen">KTC</a>
+                  <a class="label-logo label-logo--b" href="#kitchen">
+                    <img class="footer__logo__img" src="./assets/img/logo-cropped.svg" alt="main-logo">
+                  </a>
               </div>
               <div class="col col-md-3">
                   <div class="footer__menu p-t-14-md d-flex flex-dir-col al-it-ct al-it-fs-md">
-                      <h2 class="subtitle c-pink m-b-16">MENU</h2>
+                      <h2 class="subtitle c-pink m-b-16 txt-upper">Menu</h2>
                       <ul class="txt-al-ct txt-al-ini-md">
                           <li><a class="desc desc--card c-white" href="#">About</a></li>
                           <li><a class="desc desc--card c-white" href="#">Kitchens</a></li>
@@ -441,7 +446,7 @@
               </div>
               <div class="col col-md-3">
                   <div class="footer__service p-t-14-md d-flex flex-dir-col al-it-ct al-it-fs-md">
-                      <h2 class="subtitle c-pink m-b-16">SERVICE</h2>
+                      <h2 class="subtitle c-pink m-b-16 txt-upper">Service</h2>
                       <ul class="txt-al-ct txt-al-ini-md">
                           <li><a class="desc desc--card c-white" href="#">Professional</a></li>
                           <li><a class="desc desc--card c-white" href="#">Materials</a></li>
@@ -452,7 +457,7 @@
               </div>
               <div class="col col-md-3">
                   <div class="footer__social p-t-14-md d-flex flex-dir-col al-it-ct al-it-fs-md">
-                      <h2 class="subtitle c-pink m-b-20">SOCIAL</h2>
+                      <h2 class="subtitle c-pink m-b-20 txt-upper">Social</h2>
                       <div class="d-flex gap-8">
                         <img class="social__icon__img" src="./assets/img/icon-fb.png" alt="facebook">
                         <img class="social__icon__img" src="./assets/img/icon-twitter.png" alt="twitter">
@@ -483,8 +488,12 @@
     function scrollFunction() {
       if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         document.getElementById("header").style.padding = "0.5rem 2.4rem";
+        document.getElementById("menuToggle").style.top = "-2px";
+        document.getElementById("menuToggle").style.right = "-5px";
       } else {
         document.getElementById("header").style.padding = "1.6rem 2.4rem";
+        document.getElementById("menuToggle").style.top = "8px";
+        document.getElementById("menuToggle").style.right = "5px";
       }
     }
 

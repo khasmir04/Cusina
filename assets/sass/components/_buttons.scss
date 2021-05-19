@@ -1,3 +1,12 @@
+a {
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: tomato;
+}
+
 .btn {
   //default xs
   display: inline-block;
@@ -11,6 +20,10 @@
     &.btn--trans--pink {
       color: $color-bg-pink;
       border: 1px solid $color-bg-pink;
+    }
+    &:hover {
+      color: $color-white;
+      background: $color-btn-blue;
     }
   }
   //sizes
@@ -37,6 +50,11 @@
   //colors
   &.btn--black {
     background: $color-lbl-black;
+  }
+  &:hover {
+    color: $color-btn-blue;
+    background: $color-white;
+    cursor: pointer;
   }
 }
 
