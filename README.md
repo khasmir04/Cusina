@@ -100,10 +100,6 @@ Use updated browsers when visiting the site:
 - Edge
 - Safari
 
-  ```
-
-  ```
-
 ### Installation
 
 You can browse the website using the following link:

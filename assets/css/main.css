@@ -441,6 +441,12 @@
   .p-t-236-lg {
     padding-top: 23.6rem;
   }
+  .p-r-100-lg {
+    padding-right: 10rem;
+  }
+  .p-l-100-lg {
+    padding-left: 10rem;
+  }
   .gap-30-lg {
     gap: 3rem;
   }
