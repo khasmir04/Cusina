@@ -1262,8 +1262,7 @@ a {
   width: 300px;
   height: calc(100vh + 100px);
   margin: -100px -15px 0 0;
-  padding: 25px;
-  padding-top: 100px;
+  padding: 100px 25px 25px 30px;
   right: -100px;
   background: #ededed;
   list-style-type: none;
@@ -1486,6 +1485,8 @@ a:hover {
 #testimonials,
 #news,
 #contact {
+  position: relative;
+  z-index: 1;
   background: #fbece7;
 }
 
@@ -1502,9 +1503,11 @@ a:hover {
   background: #e3775e;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #e3775e), to(#ffa28d));
   background: linear-gradient(180deg, #e3775e 100%, #ffa28d 100%);
+  z-index: 0;
 }
 
 #footer {
+  position: relative;
   background: #442017;
 }
 
@@ -1722,16 +1725,48 @@ button {
 }
 
 .newsletter__background {
-  position: absolute;
+  position: relative;
+  z-index: -1;
 }
 
-.newsletter__background .big {
-  top: 0;
-  left: 0;
+.newsletter__background .lg {
+  position: absolute;
+  top: -198px;
+  left: -90px;
   background: #d45f44;
   border-radius: 50%;
   height: 170px;
   width: 170px;
+}
+
+.newsletter__background .md {
+  position: absolute;
+  top: 394px;
+  left: 100px;
+  background: #d45f44;
+  border-radius: 50%;
+  height: 78px;
+  width: 78px;
+}
+
+.newsletter__background .sm {
+  position: absolute;
+  top: 207px;
+  left: 366px;
+  background: #d45f44;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.newsletter__background .xs {
+  position: absolute;
+  top: 81px;
+  left: 291px;
+  background: #d45f44;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
 }
 
 .footer-container > :last-of-type.row::before {
@@ -1802,6 +1837,46 @@ button {
   .features__content {
     max-width: 800px;
     width: 100%;
+  }
+  .newsletter__background {
+    position: relative;
+    z-index: -1;
+  }
+  .newsletter__background .lg {
+    position: absolute;
+    top: -198px;
+    left: 602px;
+    background: #d45f44;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+  }
+  .newsletter__background .md {
+    position: absolute;
+    top: 160px;
+    left: 154px;
+    background: #d45f44;
+    border-radius: 50%;
+    height: 78px;
+    width: 78px;
+  }
+  .newsletter__background .sm {
+    position: absolute;
+    top: 120px;
+    left: 1160px;
+    background: #d45f44;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+  }
+  .newsletter__background .xs {
+    position: absolute;
+    top: 90px;
+    left: 1440px;
+    background: #d45f44;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
   }
 }
 /*# sourceMappingURL=main.css.map */
