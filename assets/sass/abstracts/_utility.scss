@@ -329,9 +329,26 @@
 .op-50 {
   opacity: 50.3%;
 }
+
 //Shadow
-.sh-50 {
-  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+.box-sh {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+}
+
+.box-sh-in {
+  box-shadow: -8px -8px 11px 3px rgba(0, 0, 0, 0.24) inset;
+  -webkit-box-shadow: -8px -8px 11px 3px rgba(0, 0, 0, 0.24) inset;
+  -moz-box-shadow: -8px -8px 11px 3px rgba(0, 0, 0, 0.24) inset;
+}
+
+.box-sh-l {
+  box-shadow: -6px 0px 11px 3px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: -6px 0px 11px 3px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: -6px 0px 11px 3px rgba(0, 0, 0, 0.24);
 }
 
 // Alignment

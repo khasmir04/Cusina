@@ -255,47 +255,6 @@ button {
   font-family: $font-kufam;
 }
 
-.newsletter__background {
-  position: relative;
-  z-index: -1;
-  .lg {
-    position: absolute;
-    top: -198px;
-    left: -90px;
-    background: $color-bg-pink-dark;
-    border-radius: 50%;
-    height: 170px;
-    width: 170px;
-  }
-  .md {
-    position: absolute;
-    top: 394px;
-    left: 100px;
-    background: $color-bg-pink-dark;
-    border-radius: 50%;
-    height: 78px;
-    width: 78px;
-  }
-  .sm {
-    position: absolute;
-    top: 207px;
-    right: 0px;
-    background: $color-bg-pink-dark;
-    border-radius: 50%;
-    height: 32px;
-    width: 32px;
-  }
-  .xs {
-    position: absolute;
-    top: 81px;
-    left: 291px;
-    background: $color-bg-pink-dark;
-    border-radius: 50%;
-    height: 18px;
-    width: 18px;
-  }
-}
-
 //Footer
 .footer-container > :last-of-type.row::before {
   display: inline-block;
@@ -373,46 +332,6 @@ button {
   .features__content {
     max-width: 800px;
     width: 100%;
-  }
-  .newsletter__background {
-    position: relative;
-    z-index: -1;
-    .lg {
-      position: absolute;
-      top: -198px;
-      left: 602px;
-      background: $color-bg-pink-dark;
-      border-radius: 50%;
-      height: 170px;
-      width: 170px;
-    }
-    .md {
-      position: absolute;
-      top: 160px;
-      left: 154px;
-      background: $color-bg-pink-dark;
-      border-radius: 50%;
-      height: 78px;
-      width: 78px;
-    }
-    .sm {
-      position: absolute;
-      top: 120px;
-      left: 1160px;
-      background: $color-bg-pink-dark;
-      border-radius: 50%;
-      height: 32px;
-      width: 32px;
-    }
-    .xs {
-      position: absolute;
-      top: 90px;
-      left: 1440px;
-      background: $color-bg-pink-dark;
-      border-radius: 50%;
-      height: 18px;
-      width: 18px;
-    }
   }
 }
 

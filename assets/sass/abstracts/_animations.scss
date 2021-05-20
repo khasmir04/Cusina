@@ -1,3 +1,4 @@
+//Pulse animation
 .pulse {
   animation: pulse 2s infinite;
 }
@@ -26,4 +27,277 @@
     -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
+}
+
+//Floating shapes
+/* Animated Circles CSS */
+
+.circles {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  animation: animate 5s linear infinite;
+  bottom: -170px;
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+  animation-duration: 10s;
+  border-radius: 50%;
+  background: $color-bg-pink-dark;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 170px;
+  height: 170px;
+  animation-delay: 5s;
+  animation-duration: 10s;
+  border-radius: 50%;
+  background: $color-bg-pink-dark;
+}
+
+.circles li:nth-child(3) {
+  right: 30%;
+  width: 170px;
+  height: 170px;
+  animation-delay: 3s;
+  animation-duration: 10s;
+  border-radius: 50%;
+  background: $color-bg-pink-dark;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 7s;
+  animation-duration: 10s;
+  border-radius: 50%;
+  background: $color-bg-pink-dark;
+}
+
+.circles li:nth-child(5) {
+  right: 35%;
+  width: 170px;
+  height: 170px;
+  animation-delay: 1s;
+  animation-duration: 10s;
+  border-radius: 50%;
+  background: $color-bg-pink-dark;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 90px;
+  height: 90px;
+  animation-delay: 10s;
+  animation-duration: 10s;
+  border-radius: 50%;
+  background: $color-bg-pink-dark;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  border-radius: 50%;
+  background: $color-bg-pink-dark;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 90px;
+  height: 90px;
+  animation-delay: 7s;
+  animation-duration: 10s;
+  border-radius: 50%;
+  background: $color-bg-pink-dark;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 32px;
+  height: 32px;
+  animation-delay: 9s;
+  animation-duration: 10s;
+  border-radius: 50%;
+  background: $color-bg-pink-dark;
+}
+
+.circles li:nth-child(10) {
+  right: 15%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 0s;
+  animation-duration: 10s;
+  border-radius: 50%;
+  background: $color-bg-pink-dark;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-60vh) rotate(360deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-120vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+//Zoom
+.anim-zoom {
+  transition: 0.3s;
+  &:hover {
+    overflow: visible;
+    transform: scale(1.1);
+  }
+}
+
+/* Shine */
+.anim-shine {
+  position: relative;
+}
+.anim-shine::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+.anim-shine:hover::before {
+  -webkit-animation: shine 0.75s;
+  animation: shine 0.75s;
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+//Cirle on image
+.anim-circle {
+  position: relative;
+}
+.anim-circle::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.anim-circle:hover::before {
+  -webkit-animation: circle 0.75s;
+  animation: circle 0.75s;
+}
+@-webkit-keyframes circle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+@keyframes circle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+
+//Apollo shine
+//Just add figcaption semantic tag sibling with img
+.anim-apollo img {
+  opacity: 0.95;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale3d(1.05, 1.05, 1);
+  transform: scale3d(1.05, 1.05, 1);
+}
+
+.anim-apollo figcaption::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  content: "";
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg)
+    translate3d(0, -100%, 0);
+  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg)
+    translate3d(0, -100%, 0);
+}
+
+.anim-apollo:hover img {
+  opacity: 0.6;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+.anim-apollo:hover figcaption::before {
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg)
+    translate3d(0, 100%, 0);
+  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg)
+    translate3d(0, 100%, 0);
 }
