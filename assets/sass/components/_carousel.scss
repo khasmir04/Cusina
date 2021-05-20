@@ -4,24 +4,28 @@
 }
 
 .carousel__item {
-  //   height: 400px;
-  //   max-width: 336px;
   width: 100%;
   margin: 0 15px;
 }
 
+// button.flickity-button {
+//   box-shadow: 0px 8px 15px rgb(0 0 0 / 50%) !important;
+// }
+
 .flickity-prev-next-button.previous {
   top: 16.7rem;
-  left: 0;
+  left: 0.4rem;
   width: 2.2rem;
   height: 2.2rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
 .flickity-prev-next-button.next {
   top: 16.7rem;
-  right: 0;
+  right: 0.4rem;
   width: 2.2rem;
   height: 2.2rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
 .flickity-page-dots {

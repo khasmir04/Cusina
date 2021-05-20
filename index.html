@@ -33,7 +33,7 @@
           <div class="header__logo label-logo label-logo--b">
               <a class="header__logo__title c-white d-flex al-it-ct" href="#kitchen">
                 <img class="d-none d-in-md header__logo__img" src="./assets/img/logo-cropped.svg" alt="main-logo">
-                <img class="d-none-md header__logo__img" src="./assets/img/logo-utensils.svg" alt="main-logo">
+                <img class="d-none-md header__logo__img--single" src="./assets/img/logo-utensils.svg" alt="main-logo">
               </a>
           </div>
           <nav class="header__nav d-none d-vis">
@@ -50,7 +50,7 @@
       </div>
       <!-- TEST HAMBURGER -->
       <div class="sidebar d-none-lg">
-        <nav role="navigation">
+        <nav>
           <div id="menuToggle">
             <input type="checkbox" />
             <span></span>
@@ -64,6 +64,11 @@
               <li class="nav-menu__item"><a class="label-nav" href="#contact">Contact</a></li>
               <li><a href="#" class="btn label-btn txt-upper">Contact Us</a></li>
             </ul>
+            <div class="menuToggle__bg">
+              <div id="menuToggle__bg__design">
+
+              </div>
+            </div>
           </div>
         </nav>
       </div>
@@ -301,35 +306,35 @@
             <div class="carousel" data-aos="fade-left" data-aos-duration="1500">
               <div class="carousel__item">
                 <div class="testimonials__item bd-rd-24">
-                  <p class="desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
+                  <p class="testimonials__item__quote desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
                   <h4 class="caption caption--b m-b-2">Carla Wildner</h4>
                   <p class="desc desc--card">New York</p>
                 </div>
               </div>
               <div class="carousel__item">
                 <div class="testimonials__item bd-rd-24">
-                  <p class="desc m-b-26 m-b-27-lg">""Sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue.""</p>
+                  <p class="testimonials__item__quote desc m-b-26 m-b-27-lg">"Sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue."</p>
                   <h4 class="caption caption--b m-b-2">Marleah Eagleston</h4>
                   <p class="desc desc--card">San Francisco</p>
                 </div>
               </div>
               <div class="carousel__item">
                 <div class="testimonials__item bd-rd-24">
-                  <p class="desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
+                  <p class="testimonials__item__quote desc m-b-26 m-b-27-lg">"Was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
                   <h4 class="caption caption--b m-b-2">Oluchi Mazi</h4>
                   <p class="desc desc--card">Washington</p>
                 </div>
               </div>
               <div class="carousel__item">
                 <div class="testimonials__item bd-rd-24">
-                  <p class="desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
+                  <p class="testimonials__item__quote desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
                   <h4 class="caption caption--b m-b-2">Carla Wildner</h4>
                   <p class="desc desc--card">New York</p>
                 </div>
               </div>
               <div class="carousel__item">
                 <div class="testimonials__item bd-rd-24">
-                  <p class="desc m-b-26 m-b-27-lg">"The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue spectacle."</p>
+                  <p class="testimonials__item__quote desc m-b-26 m-b-27-lg">"Sky was cloudless and of a deep dark blue spectacle before us was indeed sublime sky was cloudless and of a deep dark blue."</p>
                   <h4 class="caption caption--b m-b-2">Marleah Eagleston</h4>
                   <p class="desc desc--card">San Francisco</p>
                 </div>
@@ -499,13 +504,15 @@
 
     function scrollFunction() {
       if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("header").style.padding = "0.5rem 2.4rem";
-        document.getElementById("menuToggle").style.top = " -7px";
-        document.getElementById("menuToggle").style.right = "-5px";
+        document.getElementById("header").style.padding = "0.5rem 1.5rem";
+        document.getElementById("menuToggle").style.top = " -6px";
+        document.getElementById("menuToggle").style.right = "0px";
+        document.getElementById("menuToggle__bg__design").style.transform = "scale(0.8)";
       } else {
-        document.getElementById("header").style.padding = "1.6rem 2.4rem";
-        document.getElementById("menuToggle").style.top = "2px";
-        document.getElementById("menuToggle").style.right = "5px";
+        document.getElementById("header").style.padding = "1.6rem 1.5rem";
+        document.getElementById("menuToggle").style.top = "6px";
+        document.getElementById("menuToggle").style.right = "10px";
+        document.getElementById("menuToggle__bg__design").style.transform = "scale(1)";
       }
     }
 

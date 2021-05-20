@@ -37,14 +37,14 @@
  */
 #menuToggle span {
   display: block;
-  width: 33px;
-  height: 4px;
+  width: 20px;
+  height: 2px;
   margin-bottom: 5px;
   position: relative;
   background: #cdcdcd;
   border-radius: 3px;
   z-index: 1;
-  transform-origin: 4px 0px;
+  transform-origin: 2px 0px;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
@@ -53,7 +53,7 @@
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2) {
+#menuToggle span:nth-last-child(3) {
   transform-origin: 0% 100%;
 }
 
@@ -63,14 +63,14 @@
  */
 #menuToggle input:checked ~ span {
   opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
+  transform: rotate(45deg) translate(4.5px, 1.5px);
   background: #232323;
 }
 
 /*
  * But let's hide the middle one.
  */
-#menuToggle input:checked ~ span:nth-last-child(3) {
+#menuToggle input:checked ~ span:nth-last-child(4) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
@@ -78,9 +78,9 @@
 /*
  * Ohyeah and the last one should go the other direction
  */
-#menuToggle input:checked ~ span:nth-last-child(2) {
+#menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 1;
-  transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-45deg) translate(0px, 3.5px);
 }
 
 /*
@@ -118,4 +118,18 @@
 #menuToggle input:checked ~ ul {
   transform: scale(1, 1);
   opacity: 1;
+}
+
+.menuToggle__bg {
+  position: relative;
+}
+#menuToggle__bg__design {
+  position: absolute;
+  z-index: -1;
+  top: -36px;
+  left: -14px;
+  background: white;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
 }

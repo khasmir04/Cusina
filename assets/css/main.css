@@ -326,6 +326,11 @@
   opacity: 50.3%;
 }
 
+.sh-50 {
+  -webkit-box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+          box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
 .txt-al-ct {
   text-align: center;
 }
@@ -1194,15 +1199,15 @@ a {
  */
 #menuToggle span {
   display: block;
-  width: 33px;
-  height: 4px;
+  width: 20px;
+  height: 2px;
   margin-bottom: 5px;
   position: relative;
   background: #cdcdcd;
   border-radius: 3px;
   z-index: 1;
-  -webkit-transform-origin: 4px 0px;
-          transform-origin: 4px 0px;
+  -webkit-transform-origin: 2px 0px;
+          transform-origin: 2px 0px;
   -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
@@ -1214,7 +1219,7 @@ a {
           transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2) {
+#menuToggle span:nth-last-child(3) {
   -webkit-transform-origin: 0% 100%;
           transform-origin: 0% 100%;
 }
@@ -1225,15 +1230,15 @@ a {
  */
 #menuToggle input:checked ~ span {
   opacity: 1;
-  -webkit-transform: rotate(45deg) translate(-2px, -1px);
-          transform: rotate(45deg) translate(-2px, -1px);
+  -webkit-transform: rotate(45deg) translate(4.5px, 1.5px);
+          transform: rotate(45deg) translate(4.5px, 1.5px);
   background: #232323;
 }
 
 /*
  * But let's hide the middle one.
  */
-#menuToggle input:checked ~ span:nth-last-child(3) {
+#menuToggle input:checked ~ span:nth-last-child(4) {
   opacity: 0;
   -webkit-transform: rotate(0deg) scale(0.2, 0.2);
           transform: rotate(0deg) scale(0.2, 0.2);
@@ -1242,10 +1247,10 @@ a {
 /*
  * Ohyeah and the last one should go the other direction
  */
-#menuToggle input:checked ~ span:nth-last-child(2) {
+#menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 1;
-  -webkit-transform: rotate(-45deg) translate(0, -1px);
-          transform: rotate(-45deg) translate(0, -1px);
+  -webkit-transform: rotate(-45deg) translate(0px, 3.5px);
+          transform: rotate(-45deg) translate(0px, 3.5px);
 }
 
 /*
@@ -1286,6 +1291,21 @@ a {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
   opacity: 1;
+}
+
+.menuToggle__bg {
+  position: relative;
+}
+
+#menuToggle__bg__design {
+  position: absolute;
+  z-index: -1;
+  top: -36px;
+  left: -14px;
+  background: white;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
 }
 
 a {
@@ -1401,16 +1421,20 @@ a:hover {
 
 .flickity-prev-next-button.previous {
   top: 16.7rem;
-  left: 0;
+  left: 0.4rem;
   width: 2.2rem;
   height: 2.2rem;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
 .flickity-prev-next-button.next {
   top: 16.7rem;
-  right: 0;
+  right: 0.4rem;
   width: 2.2rem;
   height: 2.2rem;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
 .flickity-page-dots {
@@ -1445,7 +1469,7 @@ a:hover {
 }
 
 #header {
-  padding: 1.6rem 2.4rem;
+  padding: 1.6rem 1.5rem;
   background: #e3775e;
   position: fixed;
   width: 100%;
@@ -1487,6 +1511,15 @@ a:hover {
 .header__logo__title > span:hover {
   color: #d45f44;
   background-color: white;
+}
+
+.header__logo__img {
+  max-width: 185px;
+  width: 100%;
+}
+
+.header__logo__img .header__logo__img--single {
+  max-width: 37px;
 }
 
 .kitchen__image {
@@ -1605,6 +1638,11 @@ a:hover {
   height: 100%;
   background: #fff;
   padding: 4.3rem 3.2rem 3.6rem;
+}
+
+.testimonials__item__quote {
+  height: 16.5rem;
+  text-overflow: ellipsis;
 }
 
 .news__card {

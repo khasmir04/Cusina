@@ -1,5 +1,5 @@
 #header {
-  padding: 1.6rem 2.4rem;
+  padding: 1.6rem 1.5rem;
   background: $color-bg-pink;
   position: fixed;
   width: 100%;
@@ -48,6 +48,14 @@
   & > span:hover {
     color: $color-bg-pink-dark;
     background-color: white;
+  }
+}
+
+.header__logo__img {
+  max-width: 185px;
+  width: 100%;
+  .header__logo__img--single {
+    max-width: 37px;
   }
 }
 
@@ -161,6 +169,12 @@
   height: 100%;
   background: $color-white;
   padding: 4.3rem 3.2rem 3.6rem;
+}
+
+.testimonials__item__quote {
+  height: 16.5rem;
+  text-overflow: ellipsis;
+  // fixed temporarily - can't be min-height, issues on arrows;
 }
 
 //News
