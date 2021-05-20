@@ -30,7 +30,7 @@
   <h3 align="center">CUSINA</h3>
 
   <p align="center">
-    The Heart of Your Hom
+    The Heart of Your Home
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
