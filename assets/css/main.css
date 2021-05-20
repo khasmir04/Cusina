@@ -1,3 +1,35 @@
+.pulse {
+  -webkit-animation: pulse 2s infinite;
+          animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.521);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.13);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.521);
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.521);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.13);
+            box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.13);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
 .m-r-16 {
   margin-right: 1.6rem;
 }
@@ -1752,7 +1784,7 @@ button {
 .newsletter__background .sm {
   position: absolute;
   top: 207px;
-  left: 366px;
+  right: 0px;
   background: #d45f44;
   border-radius: 50%;
   height: 32px;
