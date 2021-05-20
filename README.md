@@ -79,10 +79,6 @@
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-<!-- - [Bootstrap](https://getbootstrap.com) -->
-<!-- - [Laravel](https://laravel.com) -->
-<!-- - [JQuery](https://jquery.com) -->
-
 - [Flickity](https://flickity.metafizzy.co/)
 - [AOS](https://michalsnik.github.io/aos/)
 - [Mapbox](https://www.mapbox.com/)
@@ -90,9 +86,6 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 
 ## Getting Started
-
-<!-- This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps. -->
 
 Download the whole project and setup a server to run.
 You can just use a live server extension in VS Code
@@ -106,39 +99,19 @@ Use updated browsers when visiting the site:
 - Opera
 - Edge
 - Safari
-<!-- This is an example of how to list things you need to use the software and how to install them.
 
+  ```
 
-- npm
-  ````sh
-  npm install npm@latest -g
-  ``` -->
-  ````
+  ```
 
 ### Installation
 
 You can browse the website using the following link:
 https://khasmir04.github.io/Cusina/
 
-<!-- 1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ``` -->
-
 <!-- USAGE EXAMPLES -->
 
 ## Usage
-
-<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
 
 This website can be used for most landing pages with the same design.
 
@@ -179,17 +152,6 @@ Project Link: [https://github.com/khasmir04/Cusina](https://github.com/khasmir04
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
-
-<!-- - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [Loaders.css](https://connoratherton.com/loaders)
-- [Slick Carousel](https://kenwheeler.github.io/slick)
-- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-- [Sticky Kit](http://leafo.net/sticky-kit)
-- [JVectorMap](http://jvectormap.com) -->
 
 - [Flickity](https://flickity.metafizzy.co/)
 - [AOS](https://michalsnik.github.io/aos/)
