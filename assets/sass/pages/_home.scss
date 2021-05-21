@@ -32,6 +32,10 @@
   background: linear-gradient(180deg, #e3775e 0%, #ffa28d 100%), #e3775e;
 }
 
+#team {
+  position: relative;
+}
+
 #newsletter {
   background: rgb(227, 119, 94);
   background: linear-gradient(
@@ -137,6 +141,9 @@
   width: 100%;
   padding: 3.2rem;
   background: $color-bg-pink-dark;
+  > p {
+    min-height: 96px;
+  }
 }
 
 .features__card__img {

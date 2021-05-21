@@ -1,5 +1,35 @@
+.line-fade:before {
+  display: inline-block;
+  position: absolute;
+  top: -80px;
+  z-index: 3;
+  content: "";
+  height: 0.1rem;
+  background-color: #d45f44;
+  width: 100%;
+  margin: 0 auto;
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 0, 0, 0)), color-stop(15%, rgba(255, 0, 0, 0)), color-stop(50%, #d45f44), color-stop(85%, rgba(255, 0, 0, 0)), to(rgba(255, 0, 0, 0)));
+  background: linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, #d45f44 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff0000', endColorstr='#00ff0000',GradientType=1 );
+  /* IE6-9 */
+}
+
+.m-r-8 {
+  margin-right: 0.8rem;
+}
+
 .m-r-16 {
   margin-right: 1.6rem;
+}
+
+.m-r-20 {
+  margin-right: 2rem;
 }
 
 .m-r-78 {
@@ -587,7 +617,7 @@
 }
 
 .circles li:nth-child(6) {
-  left: 75%;
+  left: 70%;
   width: 90px;
   height: 90px;
   -webkit-animation-delay: 10s;
@@ -1862,6 +1892,10 @@ a:hover {
   background: linear-gradient(180deg, #e3775e 0%, #ffa28d 100%), #e3775e;
 }
 
+#team {
+  position: relative;
+}
+
 #newsletter {
   background: #e3775e;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #e3775e), to(#ffa28d));
@@ -1967,6 +2001,10 @@ a:hover {
   width: 100%;
   padding: 3.2rem;
   background: #d45f44;
+}
+
+.features__card > p {
+  min-height: 96px;
 }
 
 .features__card__img {
