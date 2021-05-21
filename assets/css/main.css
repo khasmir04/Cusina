@@ -1151,10 +1151,11 @@ a {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .container-fluid {
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
@@ -1880,6 +1881,10 @@ a:hover {
   .carousel__item {
     max-width: 370px;
   }
+}
+
+body {
+  overflow-x: hidden;
 }
 
 #header {
