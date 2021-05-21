@@ -63,6 +63,10 @@
 }
 
 //Spacing
+.m-r-ini {
+  margin-right: initial;
+}
+
 .m-r-8 {
   margin-right: 0.8rem;
 }
@@ -455,8 +459,16 @@
 // lg 992-1199
 @media screen and (min-width: 992px) {
   //Spacing
+  .m-r-16-lg {
+    margin-right: 1.6rem;
+  }
+
   .m-r-78-lg {
     margin-right: 7.8rem;
+  }
+
+  .m-b-ini-lg {
+    margin-bottom: initial;
   }
 
   .m-b-9-lg {
@@ -563,7 +575,7 @@
     padding-top: 4.7rem;
   }
 
-  .p-t-in-lg {
+  .p-t-ini-lg {
     padding-top: initial;
   }
 

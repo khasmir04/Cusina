@@ -301,3 +301,13 @@
   transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg)
     translate3d(0, 100%, 0);
 }
+
+//Scale on hover with pointer
+.anim-scale-sm {
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+}

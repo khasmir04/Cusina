@@ -20,6 +20,10 @@
   /* IE6-9 */
 }
 
+.m-r-ini {
+  margin-right: initial;
+}
+
 .m-r-8 {
   margin-right: 0.8rem;
 }
@@ -402,8 +406,14 @@
 }
 
 @media screen and (min-width: 992px) {
+  .m-r-16-lg {
+    margin-right: 1.6rem;
+  }
   .m-r-78-lg {
     margin-right: 7.8rem;
+  }
+  .m-b-ini-lg {
+    margin-bottom: initial;
   }
   .m-b-9-lg {
     margin-bottom: 0.9rem;
@@ -483,7 +493,7 @@
   .p-t-47-lg {
     padding-top: 4.7rem;
   }
-  .p-t-in-lg {
+  .p-t-ini-lg {
     padding-top: initial;
   }
   .p-t-130-lg {
@@ -850,6 +860,19 @@
   transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
 }
 
+.anim-scale-sm {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.anim-scale-sm:hover {
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -1128,7 +1151,6 @@ a {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 .container-fluid {
@@ -1920,6 +1942,10 @@ a:hover {
 
 .header__logo__img .header__logo__img--single {
   max-width: 37px;
+}
+
+.nav-menu .label-nav:hover {
+  color: #122798;
 }
 
 .kitchen__image {
