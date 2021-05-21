@@ -20,6 +20,10 @@
   /* IE6-9 */
 }
 
+.over-hid {
+  overflow: hidden;
+}
+
 .m-r-ini {
   margin-right: initial;
 }
@@ -192,6 +196,10 @@
   padding-top: 5rem;
 }
 
+.p-t-54 {
+  padding-top: 5.4rem;
+}
+
 .p-t-60 {
   padding-top: 6rem;
 }
@@ -258,6 +266,10 @@
 
 .p-b-50 {
   padding-bottom: 5rem;
+}
+
+.p-b-54 {
+  padding-bottom: 5.4rem;
 }
 
 .p-b-65 {
@@ -463,6 +475,9 @@
   .p-b-22-lg {
     padding-bottom: 2.2rem;
   }
+  .p-b-49-lg {
+    padding-bottom: 4.9rem;
+  }
   .p-b-69-lg {
     padding-bottom: 6.9rem;
   }
@@ -495,6 +510,9 @@
   }
   .p-t-ini-lg {
     padding-top: initial;
+  }
+  .p-t-49-lg {
+    padding-top: 4.9rem;
   }
   .p-t-130-lg {
     padding-top: 13rem;
@@ -1151,14 +1169,12 @@ a {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 .container-fluid {
   max-width: 100%;
   margin: 0 auto;
   width: 100%;
-  overflow: hidden;
 }
 
 .d-flex {
@@ -1883,7 +1899,8 @@ a:hover {
   }
 }
 
-body {
+body,
+section {
   overflow-x: hidden;
 }
 
