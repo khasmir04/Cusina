@@ -1930,6 +1930,11 @@ a:hover {
   background: #442017;
 }
 
+.header__logo__title {
+  max-width: 185px;
+  width: 100%;
+}
+
 .header__logo__title > span:hover {
   color: #d45f44;
   background-color: white;
@@ -2072,7 +2077,6 @@ a:hover {
 
 .testimonials__item__quote {
   height: 16.5rem;
-  text-overflow: ellipsis;
 }
 
 .news__card {
@@ -2205,6 +2209,10 @@ button {
   .footer__copyright {
     max-width: initial;
   }
+  .footer__logo__image {
+    max-width: 160px;
+    width: 100%;
+  }
   .footer__logo__img {
     max-width: 160px;
     width: 100%;
@@ -2212,6 +2220,10 @@ button {
 }
 
 @media screen and (min-width: 992px) {
+  .footer__logo__image {
+    max-width: 185px;
+    width: 100%;
+  }
   .footer__logo__img {
     max-width: 185px;
     width: 100%;

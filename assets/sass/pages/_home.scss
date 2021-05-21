@@ -53,6 +53,8 @@
 
 //Header
 .header__logo__title {
+  max-width: 185px;
+  width: 100%;
   & > span:hover {
     color: $color-bg-pink-dark;
     background-color: white;
@@ -188,7 +190,6 @@
 
 .testimonials__item__quote {
   height: 16.5rem;
-  text-overflow: ellipsis;
   // fixed temporarily - can't be min-height, issues on arrows;
 }
 
@@ -328,6 +329,10 @@ button {
   .footer__copyright {
     max-width: initial;
   }
+  .footer__logo__image {
+    max-width: 160px;
+    width: 100%;
+  }
   .footer__logo__img {
     max-width: 160px;
     width: 100%;
@@ -336,6 +341,10 @@ button {
 
 // lg 992-1199
 @media screen and (min-width: 992px) {
+  .footer__logo__image {
+    max-width: 185px;
+    width: 100%;
+  }
   .footer__logo__img {
     max-width: 185px;
     width: 100%;
