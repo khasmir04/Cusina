@@ -14,7 +14,7 @@
 
   <!-- Stylings -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-  <!-- <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet"> -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
   
   <!-- Flickity -->
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"/>
@@ -405,10 +405,10 @@
               <div class="col col-md-6 d-flex al-it-ct jst-ct">
                   <div class="contact__image bd-rd-32" data-aos="zoom-in" data-aos-duration="1500">
                       <!-- Static Map -->
-                      <img class="contact__map anim-scale-sm bd-rd-32 box-sh-l" src="https://api.mapbox.com/styles/v1/khasmir04/ckotpyn7300gl17ps4a2czjdr/static/120.9374,14.3369,16.05,0/570x576?access_token=pk.eyJ1Ijoia2hhc21pcjA0IiwiYSI6ImNrb3RucDNlNjBkMW8zMWxsMG0xdnN1eXgifQ.v6vCR3UsmPbgnYk03kUHhg" alt="about image">
+                      <!-- <img class="contact__map anim-scale-sm bd-rd-32 box-sh-l" src="https://api.mapbox.com/styles/v1/khasmir04/ckotpyn7300gl17ps4a2czjdr/static/120.9374,14.3369,16.05,0/570x576?access_token=pk.eyJ1Ijoia2hhc21pcjA0IiwiYSI6ImNrb3RucDNlNjBkMW8zMWxsMG0xdnN1eXgifQ.v6vCR3UsmPbgnYk03kUHhg" alt="about image"> -->
                       <!-- Uncomment to use dynamic map -->
-                      <!-- <div id="map" class="contact__map">
-                      </div> -->
+                      <div id="map" class="contact__map">
+                      </div>
                       <img class="contact__pin__img" src="./assets/img/pin.png" alt="map-pin">
                   </div>
               </div>
@@ -506,7 +506,7 @@
       </div>
   </footer>
   <!-- Uncomment to use dynamic map -->
-  <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script> -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
   <script>
     // AOS
     AOS.init();
@@ -529,14 +529,14 @@
 
     // Mapbox
     // Interactive - disable this if using static
-    // mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhc21pcjA0IiwiYSI6ImNrb3RucDNlNjBkMW8zMWxsMG0xdnN1eXgifQ.v6vCR3UsmPbgnYk03kUHhg';
+    mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhc21pcjA0IiwiYSI6ImNrb3RucDNlNjBkMW8zMWxsMG0xdnN1eXgifQ.v6vCR3UsmPbgnYk03kUHhg';
     
-    // var map = new mapboxgl.Map({
-    //   container: 'map', // container id
-    //   style: 'mapbox://styles/khasmir04/ckotpyn7300gl17ps4a2czjdr', // custom style url from https://studio.mapbox.com/
-    //   center: [-74.5, 40], // starting position
-    //   zoom: 9 // starting zoom
-    // });
+    var map = new mapboxgl.Map({
+      container: 'map', // container id
+      style: 'mapbox://styles/khasmir04/ckotpyn7300gl17ps4a2czjdr', // custom style url from https://studio.mapbox.com/
+      center: [-74.5, 40], // starting position
+      zoom: 9 // starting zoom
+    });
     
     var flkty = new Flickity(".carousel", {
       freeScroll: true,
