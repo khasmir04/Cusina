@@ -73,7 +73,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://khasmir04.github.io/Cusina/)
+[![Product Name Screen Shot][product-screenshot]](https://khasmir.cusina.codes/)
 
 ### Built With
 
@@ -103,7 +103,7 @@ Use updated browsers when visiting the site:
 ### Installation
 
 You can browse the website using the following link:
-https://khasmir04.github.io/Cusina/
+https://khasmir.cusina.codes/
 
 <!-- USAGE EXAMPLES -->
 
