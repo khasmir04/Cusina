@@ -211,6 +211,9 @@ section {
   &.news__card--2 {
     background-image: url("./../img/news-img-2.png");
   }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .news__card__img {
