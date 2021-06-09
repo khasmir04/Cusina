@@ -7,11 +7,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-<br />
-
-<h3 align="center">KHASMIR JHON CALUSCUSAO</h3>
-
 <br />
 
 <!-- PROJECT LOGO -->
@@ -25,6 +20,8 @@
 
   <p align="center">
     The Heart of Your Home
+    <br />
+    <p align="center">By: Khasmir Jhon Caluscusao</p>
     <br />
     <a href="https://github.com/khasmir04/Cusina"><strong>Explore the docs »</strong></a>
     <br />
