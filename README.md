@@ -19,10 +19,12 @@
   <h3 align="center">CUSINA</h3>
 
   <p align="center">
-    The Heart of Your Home
-    <br />
+  The Heart of Your Home
     <p align="center">By: Khasmir Jhon Caluscusao</p>
     <br />
+  </p>
+      
+  <p align="center">
     <a href="https://github.com/khasmir04/Cusina"><strong>Explore the docs »</strong></a>
     <br />
     <br />
