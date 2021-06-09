@@ -1,18 +1,5 @@
 # KJ - Gamer :video_game: and Developer :computer:
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-<!-- [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) -->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -20,10 +7,17 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+
+<br />
+
+<h3 align="center">KHASMIR JHON CALUSCUSAO</h3>
+
+<br />
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/khasmir04/Cusina">
     <img src="/assets/img/logo-cropped.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -32,20 +26,65 @@
   <p align="center">
     The Heart of Your Home
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/khasmir04/Cusina"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/khasmir04/Cusina">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/khasmir04/Cusina/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/khasmir04/Cusina/issues">Request Feature</a>
   </p>
 </p>
 
+<details open="open">
+<summary>
+Languages and Tools Used🛠:
+</summary>
+  <br/>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+<code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/1024px-Github-desktop-logo-symbol.svg.png"></code>
+<code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png"></code>
+<code><img height="20" src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png"></code>
+<code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png"></code>
+</details>
+
+---
+
+<details open="open">
+<summary>
+Connect with me🤝: 
+</summary>
+<br/>
+<a href="https://github.com/khasmir04">
+  <img align="left" alt="Khasmir's Github" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/1024px-Github-desktop-logo-symbol.svg.png" />
+</a>
+<a href="https://instagram.com/khasmir.cortez/">
+  <img align="left" alt="Khasmir's Instagram" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" />
+</a>
+<a href="https://www.facebook.com/khazmhir/">
+  <img align="left" alt="Khasmir's Facebook" width="22px" src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" />
+</a>
+<a href="https://twitter.com/khasmircortez">
+  <img align="left" alt="Khasmir's Twitter" width="22px" src="https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Twitter_NEW.png" />
+</a>
+<a href="https://www.linkedin.com/in/khasmir/">
+  <img align="left" alt="Khasmir's Linkdein" width="22px" src="https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png" />
+</a>
+<br/>
+</details>
+
+---
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</summary>
+<summary>Project Details✨</summary>
+    <br/>
+Table of Contents
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -67,17 +106,15 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://khasmir.cusina.codes/)
+A landing page website converted from Figma design.
 
 ### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 - [Flickity](https://flickity.metafizzy.co/)
 - [AOS](https://michalsnik.github.io/aos/)
@@ -111,13 +148,11 @@ https://khasmir.cusina.codes/
 
 This website can be used for most landing pages with the same design.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <!-- ROADMAP -->
 
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/khasmir04/Cusina/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -126,9 +161,9 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/YourFeature`)
+3. Commit your Changes (`git commit -m 'Add some YourFeature'`)
+4. Push to the Branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
 
 <!-- LICENSE -->
@@ -159,17 +194,18 @@ Project Link: [https://github.com/khasmir04/Cusina](https://github.com/khasmir04
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+</details>
+ 
+[contributors-shield]: https://img.shields.io/github/contributors/khasmir04/Cusina.svg?style=for-the-badge
+[contributors-url]: https://github.com/khasmir04/Cusina/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/khasmir04/Cusina.svg?style=for-the-badge
+[forks-url]: https://github.com/khasmir04/Cusina/network/members
+[stars-shield]: https://img.shields.io/github/stars/khasmir04/Cusina.svg?style=for-the-badge
+[stars-url]: https://github.com/khasmir04/Cusina/stargazers
+[issues-shield]: https://img.shields.io/github/issues/khasmir04/Cusina.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/khasmir04/Cusina/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/khasmir/
 [product-screenshot]: /assets/img/Screenshot.png
