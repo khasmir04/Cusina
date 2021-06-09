@@ -291,6 +291,20 @@ button {
   height: 48px;
 }
 
+.social__icon {
+  background: $color-black;
+  text-align: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  &:hover {
+    background: $color-white;
+    i {
+      color: $color-black;
+    }
+  }
+}
+
 .footer__copyright {
   max-width: 200px;
   width: 100%;

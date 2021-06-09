@@ -486,9 +486,12 @@
                   <div class="footer__social p-t-14-md d-flex flex-dir-col al-it-ct al-it-fs-md">
                       <h2 class="subtitle c-pink m-b-20 txt-upper">Social</h2>
                       <div class="d-flex">
-                        <a href="#"><img class="social__icon__img m-r-8" src="./assets/img/icon-fb.png" alt="facebook"></a>
+                        <!-- <a href="#"><img class="social__icon__img m-r-8" src="./assets/img/icon-fb.png" alt="facebook"></a>
                         <a href="#"><img class="social__icon__img m-r-8" src="./assets/img/icon-twitter.png" alt="twitter"></a>
-                        <a href="#"><img class="social__icon__img" src="./assets/img/icon-instagram.png" alt="instagram"></a>
+                        <a href="#"><img class="social__icon__img" src="./assets/img/icon-instagram.png" alt="instagram"></a> -->
+                        <a href="#" class="social__icon m-r-8"><i class="fab fa-facebook-f social-link c-white"></i></a>
+                        <a href="#" class="social__icon m-r-8"><i class="fab fa-twitter social-link c-white"></i></a>
+                        <a href="#" class="social__icon m-r-8"><i class="fab fa-instagram social-link c-white"></i></a>
                       </div>
                   </div>
               </div>
@@ -519,11 +522,13 @@
     function scrollFunction() {
       if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         document.getElementById("header").style.padding = "0.8rem 1.5rem";
+        document.getElementById("header").style.boxShadow = "0 1px 1px rgb(0 0 0 / 1%), 0 10px 30px rgb(0 0 0 / 8%)";
         document.getElementById("menuToggle").style.top = " -3px";
         document.getElementById("menuToggle").style.right = "0px";
         document.getElementById("menuToggle__bg__design").style.transform = "scale(0.8)";
       } else {
         document.getElementById("header").style.padding = "1.6rem 1.5rem";
+        document.getElementById("header").style.boxShadow = "none";
         document.getElementById("menuToggle").style.top = "6px";
         document.getElementById("menuToggle").style.right = "10px";
         document.getElementById("menuToggle__bg__design").style.transform = "scale(1)";

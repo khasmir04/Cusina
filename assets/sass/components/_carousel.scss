@@ -8,13 +8,9 @@
   margin: 0 15px;
 }
 
-// button.flickity-button {
-//   box-shadow: 0px 8px 15px rgb(0 0 0 / 50%) !important;
-// }
-
 .flickity-prev-next-button.previous {
   top: 16.7rem;
-  left: 0.4rem;
+  left: -1rem;
   width: 2.2rem;
   height: 2.2rem;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
@@ -22,7 +18,7 @@
 
 .flickity-prev-next-button.next {
   top: 16.7rem;
-  right: 0.4rem;
+  right: -1rem;
   width: 2.2rem;
   height: 2.2rem;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
@@ -50,5 +46,12 @@
 @media screen and (min-width: 768px) {
   .carousel__item {
     max-width: 370px;
+  }
+  .flickity-prev-next-button.previous {
+    left: -3.2rem;
+  }
+
+  .flickity-prev-next-button.next {
+    right: -3.2rem;
   }
 }
